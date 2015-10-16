@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_product_detail"
+    tools:context="com.example.devanshus.firstapp.ProductDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:padding="10dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/tweetTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#181717"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tweetBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+
+            android:textColor="#393939"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tweetDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+
+            android:textColor="#615f5f"
+            android:textSize="12sp" />
+
+
+        <LinearLayout android:id="@+id/quantity_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_quantity"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_vertical"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/fld_quantity"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="5dp"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_addToCart"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tweetDate"
+            android:text="@string/lbl_addToCart"
+            android:layout_width="290dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
