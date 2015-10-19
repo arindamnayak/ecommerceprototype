@@ -1,0 +1,45 @@
+<!--
+<div id="main">
+
+    <h1>Login</h1>
+    <form class="Login">
+
+        <br>
+            Username: <input type=text ng-model="loginName"><br>
+        <p>
+            password: <input type=password ng-model="loginPassword"> <br>
+        </p>
+        <br>
+        <p>
+            <button ng-click="logIn()">Log in</button>
+            <button ng-click="logOut()">Log Out</button>
+        </p>
+
+    </form>
+</div>
+
+-->
+<h2>Login</h2>
+<div style="border: 1px solid blue;">
+    <table>
+        <tr>
+            <td>Username: </td>
+            <td>
+                <input type="text" ng-model="loginName" />
+            </td>
+        </tr>
+        <tr>
+            <td>password: </td>
+            <td>
+                <input type=password ng-model="loginPassword" />
+            </td>
+        </tr>
+
+            <td colspan="2">
+                <br>
+                <input type="Button" value="Log In" ng-click="logIn()" />
+                <input type="Button" value="Log Out" ng-click="logOut()" />
+            </td>
+        </tr>
+    </table>
+</div>

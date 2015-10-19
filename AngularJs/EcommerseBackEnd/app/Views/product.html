@@ -1,0 +1,73 @@
+<!--<p>This is the partial for view 2.</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>-->
+<style>
+  table, th , td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  table tr:nth-child(odd)	{
+    background-color: #f1f1f1;
+  }
+  table tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+</style>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+<div ng-app="myApp">
+  <h1>Products:</h1>
+
+  Search: <input type="text" ng-model="searchProduct">
+  <button ng-click="search()">Search</button>
+  <button ng-click="addProduct()">Add Products</button>  <br> <br>
+<table>
+  <!--<td><input type="radio"></td>-->
+    <td>productName</td>
+    <td>productDesc</td>
+    <td>modelNo</td>
+    <td>unitPrice</td>
+    <td>Select</td>
+  <!--  <tr ng-repeat="x in names" ng-click="setSelected(x.id)">-->
+    <tr st-select-row="x" st-select-mode="multiple" ng-repeat="product in products">
+
+      <td>{{ product.get("productName") }}</td>
+      <td>{{ product.get("productDesc") }}</td>
+      <td>{{ product.get("modelNo") }}</td>
+      <td>{{ product.get("unitPrice") }}</td>
+      <td><span> <button type="button" ng-hide="editMode" ng-click="editMode = true;
+      selectProduct(product)" >select</button></span></td>
+
+    </tr>
+  </table>
+</div>
+<!--
+<br> <p> New List <p> <br>
+<div>
+  <ul>
+    <li class="productName">
+      <b>productName</b>
+    </li>
+    <li class="productDesc">
+      <b>productDesc</b>
+    </li>
+    <li class="modelNo">
+      <b>modelNo</b>
+    </li>
+  </ul>
+  <ul ng-repeat="x in names">
+    &lt;!&ndash;<li  class="productName">
+      {{ x.get("productName") }}
+    </li>
+    <li class="productDesc">
+      {{ x.get("productDesc") }}
+    </li>
+    <li class="modelNo">
+      {{ x.get("modelNo") }}
+    </li>&ndash;&gt;
+    <li data-choice="selected" data-value="x.id">...</li>
+  </ul>
+</div>-->
