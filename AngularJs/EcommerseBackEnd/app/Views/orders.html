@@ -1,0 +1,53 @@
+<style>
+    table, th , td  {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table tr:nth-child(odd)	{
+        background-color: #f1f1f1;
+    }
+    table tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+</style>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+<div ng-app="myApp" data-ng-controller="OrderCtrl" data-ng-init="init()" >
+    <h1>Order Details: </h1>
+    <td colspan="2"> <br>
+        <input type="Button" value="Back" ng-click="back()" />
+        <input type="Button" value="Refresh" ng-click="refreshPage()" />
+    </td>
+    <br> <br>
+    <table>
+        <!--<td><input type="radio"></td>-->
+        <td>Order No</td>
+        <td>Product Name</td>
+        <td>Model No</td>
+        <td>Total Qty</td>
+        <td>Total Amount</td>
+        <td>Total Tax Amount</td>
+        <td>Total Discount Amount</td>
+        <td>SubTotal</td>
+        <td>SubTotal</td>
+        <td>CheckOut</td>
+
+        <!--  <tr ng-repeat="x in names" ng-click="setSelected(x.id)">-->
+        <tr st-select-row="x" st-select-mode="multiple"  ng-repeat="order in neworderDetails">
+
+            <td>{{ order.OrderNo }}</td>
+            <td>{{ order.Product_Name }}</td>
+            <td>{{ order.Model_No }}</td>
+            <td>{{ order.TotalQty }}</td>
+            <td>{{ order.TotalAmount }}</td>
+            <td>{{ order.TotalTaxAmt }}</td>
+            <td>{{ order.TotalDiscountAmt }}</td>
+            <td>{{ order.SubTotal }}</td>
+            <td>{{ order.Status }}</td>
+            <td><span> <button type="button" ng-click="editMode = true;
+            checkOutOrder(order)" >Check Out</button></span></td>
+
+        </tr>
+    </table>
+</div>

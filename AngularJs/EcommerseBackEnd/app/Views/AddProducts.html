@@ -1,0 +1,79 @@
+<h2>Add new Product</h2>
+<td colspan="2"> <br>
+    <input type="Button" value="Back" ng-click="addProduct.back()" />
+</td>
+<div style="border: 1px solid blue;">
+    <table>
+        <tr>
+            <td>ProductName: </td>
+            <td>
+                <input type="text" ng-model="product.productName" />
+            </td>
+        </tr>
+        <tr>
+            <td>ProductDesc: </td>
+            <td>
+                <input type="text" ng-model="product.productDesc" />
+            </td>
+        </tr>
+        <tr>
+            <td>Model No </td>
+            <td>
+                <input type="text" ng-model="product.modelNo" />
+            </td>
+        </tr>
+        <tr>
+            <td>Unit Price </td>
+            <td>
+                <input type="text" ng-model="product.unitPrice" />
+            </td>
+        </tr>
+        <tr>
+            <td>Available Quantity: </td>
+            <td>
+                <input type="text" ng-model="product.availableQty" />
+            </td>
+        </tr>
+        <tr>
+
+            <td>Sku: </td>
+            <td>
+                ObjectId: <input type="text" ng-model="sku.id" />
+            </td>
+            <td>
+               Color: <input type="text" ng-model="sku.color" />
+            </td>
+            <td>
+               Size: <input type="text" ng-model="sku.size" />
+            </td>
+            <td>
+            Description: <input type="text" ng-model="sku.description" />
+            </td>
+        </tr>
+        <tr>
+
+            <td>Category: </td>
+            <td>
+                ObjectId: <input type="text" ng-model="category.id" />
+            </td>
+            <td>
+                Category Type: <input type="text" ng-model="category.type" />
+            </td>
+        </tr>
+        <tr>
+            <td>Currency:</td>
+            <td>
+                ObjectId: <input type="text" ng-model="currency.id" />
+            </td>
+            <td>
+                CurrencyCode: <input type="text" ng-model="currency.code" />
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> <br>
+                <input type="Button" value="Add to Product" ng-click="addProduct(product)" />
+            </td>
+        </tr>
+    </table>
+</div> 
