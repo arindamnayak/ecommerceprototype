@@ -97,9 +97,9 @@ angular.module('app.controllers', ['ngCookies'])
 
   .controller('productsCtrl', function ($scope, MyCategoryService, MyProductService, Utils,$cookies,$rootScope) {
     //console.log(MyCategoryService.get());
-  // $scope.products = MyCategoryService.get();
+  $scope.products = MyCategoryService.get();
      // $scope.products = $cookieStore.get('products');
-      $scope.products = $cookies.prod;
+  //    $scope.products = $cookies.prod;
     $scope.select = function (product) {
       console.log(product.get('productName'));
       var productDetails = Parse.Object.extend("Product_Details");
@@ -315,11 +315,31 @@ angular.module('app.controllers', ['ngCookies'])
 
   })
 
-  .controller('paymentCtrl', function ($scope, Payment1, Utils) {
+  .controller('paymentCtrl', function ($scope, Payment1, Utils,RestAPI) {
 
     $scope.products = Payment1.getItems();
     $scope.total = Payment1.get();
-    $scope.placeOrder = function () {
+
+
+      var OrderNo = Utils.Order();
+      var productList=[];
+      for(var i=0;i<$scope.products.length;i++){
+        console.log("i is: "+i);
+        productList[i]= { "qty":$scope.products[i].get("qty"),"productId":$scope.products[i].get("product").id};
+      }
+
+      var OrderInput= {"orderId":OrderNo,"productList":productList};
+      $scope.placeOrder= function() {
+        RestAPI.updateOrder(OrderInput).success(function (result) {
+          console.log("Data from Rest API is: " + result.status);
+          console.log("Data from Rest API is: " + result.message);
+          $scope.order();
+        }).error(function (error) {
+          console.log("Error :" + error.message);
+        })
+      }
+
+    $scope.order = function () {
       console.log("Order placed successfully");
       var qtySum = 0;
       for (i = 0; i < $scope.products.length; i++) {
@@ -335,7 +355,7 @@ angular.module('app.controllers', ['ngCookies'])
       order.set('TotalQty', qtySum);
       order.set('TotalDiscountAmt', 0);
       order.set('user', Parse.User.current());
-      order.set('OrderNo', Utils.Order());
+      order.set('OrderNo', OrderNo);
       order.set('currency', $scope.products[0].get('product').get('currency'));
       order.set('TotalTaxAmt',0);
       order.save(
@@ -348,16 +368,18 @@ angular.module('app.controllers', ['ngCookies'])
             orderItem.set('product',$scope.products[i].get('product'));
             orderItem.set('totalQty',$scope.products[i].get('qty'));
             (function (i) {orderItem.save({
-              success: function(){
+              success: function(object){
 
               }
               ,
-              error: function(obj,error){
+              error: function(object,error){
                 console.log(error.message);
               }
             })}(i));
 
           }
+
+          shipment(obj);
         }
           , error: function(obj,error){
 
@@ -378,6 +400,51 @@ angular.module('app.controllers', ['ngCookies'])
 
 
     }
+
+      shipment = function(newOrder){
+
+        var userAddress= Parse.Object.extend("UserAddress");
+        var query= new Parse.Query(userAddress);
+        query.equalTo("user", Parse.User.current());
+        console.log("Fetching User Address");
+        query.find({
+          success: function (userAddress) {
+            if (userAddress.length == 0) {
+              alert("No UserAddress found");
+            }
+            /*
+             Creating Shipment for the Order.
+             */
+            console.log("userAddress Found " + userAddress[0].id);
+            var shipment = Parse.Object.extend("Shipment");
+            var newShipment= new shipment();
+            newShipment.set("status","InProgress");
+            newShipment.save(null,{
+              success: function(newshipment){
+                newshipment.set("user",Parse.User.current());
+                newshipment.set("order",newOrder);
+                newshipment.set("userAddress",userAddress[0]);
+                newShipment.save(null,{
+                  success: function(newShipment){
+                    console.log("Shipment added successfully");
+                  },
+                  error: function (object, error) {
+                    console.log("Error Found" + error.message);
+                  }
+
+                });
+              },
+              error: function (object, error) {
+                console.log("Error Found" + error.message);
+              }
+
+            });
+
+          }, error: function (error) {
+            alert("Error: " + error.code + " " + error.message);
+          }
+        });
+      }
     $scope.logout = function () {
       Utils.logout();
     };
