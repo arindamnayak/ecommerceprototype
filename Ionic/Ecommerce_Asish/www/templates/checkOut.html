@@ -1,0 +1,24 @@
+<ion-view title="Check Out">
+  <ion-content padding="true" class="has-header">
+    <!--<button class="button button-calm button-block button-small icon-left" ng-click="SearchProducts(Product)">Find</button>-->
+    <div class="spacer" style="width: 500px; height: 30px;" ng-controller="checkOutCtrl"> </div>
+    <ion-list >
+      <button ng-click="refresh()">Refresh</button><td>
+
+      <br> <br>
+      <ion-item class="item-thumbnail-left" ng-repeat= "order in orderDetails" >
+
+        <img ng-src= {{order.get("product").get("url")}}   />
+        <h2>Product:  {{ order.get("product").get("productName") }} </h2>
+        <h2>Price:  {{ order.get("product").get("unitPrice") }} </h2>
+        <h2>Qty Choosen: {{ order.get("qty") }}</h2>
+
+      </ion-item>
+    </ion-list>
+    <h2 > Sub Total:  {{calcSum}} </h2>
+    <h2 > <a href="#" class="button button-balanced button-block" ng-click="payment(orderDetails)">Make Payment</a>  </h2>
+
+  </ion-content>
+</ion-view>
+
+

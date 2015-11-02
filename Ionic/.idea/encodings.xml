@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/controllers/categories.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/controllers/checkout.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/controllers/login.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/controllers/orders.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/controllers/products.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/routes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/js/services.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/templates/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/templates/productDetails.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestProject/www/templates/products.html" charset="UTF-8" />
+  </component>
+</project>

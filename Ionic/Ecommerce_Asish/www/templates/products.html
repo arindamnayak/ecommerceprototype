@@ -1,0 +1,71 @@
+<ion-view title="Products">
+  <ion-content padding="true" class="has-header">
+    <ion-list>
+      <label class="item item-input" name="SearchProduct">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="Search Products" ng-model="Product.searchProduct">
+      </label>
+    </ion-list>
+    <button class="button button-calm button-block button-small icon-left"
+            ng-click="SearchProducts(Product)">Find</button>
+    <button ng-click="refresh()">Refresh</button><td>
+
+    <div class="spacer" style="width: 300px; height: 30px;"></div>
+     <ion-list>
+       <!--<ion-item class="row">
+         <div class="row header col-positive">
+           <div class="col-25 " >Image
+           </div>
+           <div class="col-25 " >Product Name
+
+           </div>
+           &lt;!&ndash;<div class="col-25">Product Desc</div>&ndash;&gt;
+           <div class="col-25">Model No</div>
+           <div class="col-10">Unit Price</div>
+           <div class="col-25">Buy Here</div>
+         </div>
+       </ion-item>-->
+
+      <ion-item class="item-thumbnail-left" ng-repeat="product in products" ng-click="select(product)">
+        <!--{{product.get("productName")}}-->
+        <!--<div class="row"  ion-item ng-repeat="product in products" ng-click="select(product)"> -->
+        <img ng-src={{product.get("url")}} />
+        <h2>Product Desc: {{ product.get("productDesc") }} </h2>
+        <!-- {{ product.get("productName") }} <br>-->
+        <!--<div class="col-25">{{ product.get("productDesc") }}</div>-->
+        <h2>Model No:  {{ product.get("modelNo") }} </h2>
+        <h2> Unit Price: ${{ product.get("unitPrice") }}</h2>
+
+          <h2>
+
+           <!-- &#9;&#9; Color <select  ng-model="Color">
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Gree">Green</option>
+          </select>
+            &#9;&#9; Size <select  ng-model="Size">
+            <option value="Large">Large</option>
+            <option value="Medium">Medium</option>
+            <option value="Small">Small</option>
+          </select>-->
+
+            Color: <select ng-model="options.selectedSkuColor" ng-options="sku.get('color') for sku in product.get('sku') "></select>
+            Size: <select ng-model="options.selectedSkuSize" ng-options="sku.get('size') for sku in skus "></select>
+
+          <!--  Color: <select ng-model="options.selectedSkuColor" ng-options="sku.get('color') for sku in skus "></select>
+            Size: <select ng-model="options.selectedSkuSize" ng-options="sku.get('size') for sku in skus "></select>-->
+          </h2>
+        <!--<div>Unit Price: <br>${{ product.get("unitPrice") }}</div>-->
+        <h2> <a  href="" ng-click="addToCart(product)">add to cart</a> </h2> <br>
+        <h2>  <button ng-click="addProducts(product)">Update Product</button> </h2>
+        <!-- <td><span> <button type="button" class="button-positive icon-right"  ng-click="addToCart(product.id)">addToCart</button></span></td>-->
+      </ion-item>
+
+
+    </ion-list>
+    <!-- <td><span> <button type="button" class="button-positive icon-right"  ng-click="addToCart(product.id)">addToCart</button></span></td>-->
+    <td><span> <button type="button" ng-hide="true" ng-click="refresh()">refresh</button></span></td>
+  </ion-content>
+</ion-view>
+
+
