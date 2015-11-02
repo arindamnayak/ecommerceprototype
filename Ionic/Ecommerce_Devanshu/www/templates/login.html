@@ -1,0 +1,18 @@
+<ion-view title="Login" ng-app="app">
+    <ion-content padding="true" class="has-header">
+        <form class="list" novalidate >
+            <ion-list>
+                <label class="item item-input" >
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="" ng-model="user.username">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder=""  ng-model="user.password">
+                </label>
+            </ion-list>
+            <a  ng-click="login(user)"  class="button button-calm button-block ">Log in</a>
+            <a href="#/signup" class="button button-positive button-clear button-block ">Or create an account</a>
+        </form>
+    </ion-content>
+</ion-view>
