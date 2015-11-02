@@ -1,0 +1,33 @@
+<ion-view title="Cart Details">
+  <ion-content padding="true" class="has-header">
+    <!--<button class="button button-calm button-block button-small icon-left" ng-click="SearchProducts(Product)">Find</button>-->
+    <div class="spacer" style="width: 500px; height: 30px;" ng-controller="cartCtrl"> </div>
+      <ion-list >
+       <button ng-click="refresh()">Refresh</button><td>
+         <button ng-click="calculateTotal()">Calcualte Total</button>
+          <br> <br>
+           <ion-item class="item-thumbnail-left" ng-repeat= "item in items" >
+
+            <img ng-src= {{item.get("product").get("url")}}   />
+            <h2>Product:  {{ item.get("product").get("productName") }} </h2>
+            <h2>Price:  {{ item.get("product").get("unitPrice") }} </h2>
+
+           <h2> Qty Choosen:   {{ item.get("qty") }}</h2>
+           <h2> No of Qty required:
+         <select  ng-model="Qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+         </select> </h2>
+          <h2> Total:   {{Qty * item.get("product").get("unitPrice") }} </h2>
+
+          <button ng-click="removeItem($index)">remove from Cart</button>
+  </ion-item>
+    </ion-list>
+    <h2 > Sub Total:  {{calcSum}} </h2>
+    <h2 > <a href="#/checkOut" class="button button-calm button-block" ng-click="checkOut(items)">Check Out</a>  </h2>
+
+    </ion-content>
+</ion-view>
+
+
