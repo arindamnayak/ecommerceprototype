@@ -1,0 +1,19 @@
+<ion-view title="Products" ng-app="app" ng-controller="productsCtrl">
+
+  <ion-content padding="true" class="has-header">
+    <div align="right">
+      <a>Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a ng-href="#/checkOut">Cart</a>&nbsp;&nbsp;
+      <a ng-href="#/login" ng-click="logout()">Logout</a>&nbsp;&nbsp;
+    </div>
+    <h4>Products</h4>
+    <ion-list></ion-list>
+    <ion-list ng-repeat="product in products">
+      <ion-item class="item-thumbnail-left" ng-click="select(product)">
+        <img ng-src="{{product.get('url')}}">
+
+        <h2> {{product.get('productName')}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

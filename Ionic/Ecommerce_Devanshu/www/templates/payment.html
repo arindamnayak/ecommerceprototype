@@ -1,0 +1,19 @@
+<ion-view title="Payment" ng-app="app" ng-controller="paymentCtrl">
+
+  <ion-content padding="true" class="has-header">
+    <div align="right">
+      <a>Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a ng-href="#/checkOut">Cart</a>&nbsp;&nbsp;
+      <a ng-href="#/login" ng-click="logout()">Logout</a>&nbsp;&nbsp;
+    </div>
+
+    <ion-list ng-repeat="product in products">
+      <ion-item>
+      {{product.get('product').get('productName')}}  <br> {{product.get('product').get('unitPrice')}}x{{product.get('qty')}}={{product.get('product').get('unitPrice')*product.get('qty')}}
+      </ion-item>
+    </ion-list>
+      <i align="right">Total : {{total}} </i>
+
+    <a ng-click="placeOrder()" class="button button-energized button-block">Make Payment</a>
+  </ion-content>
+</ion-view>
