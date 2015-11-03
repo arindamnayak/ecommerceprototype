@@ -1,0 +1,20 @@
+<ion-view title="Cart" ng-controller="cartCtrl">
+    <ion-content padding="true" class="has-header">
+      <div align="right">
+        <a>Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a ng-href="#/checkOut"  >Cart</a>&nbsp;&nbsp;
+        <a ng-href="#/login" ng-click="logout()">Logout</a>&nbsp;&nbsp;
+      </div>
+        <ion-list>
+      <ion-item class="item-thumbnail-left">
+        <img ng-src="{{url}}">
+        <h2 ng-cloak="">{{productName}}</h2>
+        <p ng-cloak="">{{brand}}</p>
+        <p ng-cloak="">{{price}}</p>
+      </ion-item>
+    </ion-list>
+      </ion-list>
+      <button ng-click="addToCart()" class="button button-stable button-block ">Add To Cart</button>
+    </ion-content>
+    </ion-content>
+</ion-view>
