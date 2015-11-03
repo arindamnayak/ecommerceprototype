@@ -1,0 +1,100 @@
+2015-10-05 13:40:04.872 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 10896 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 13:49:43.780 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 10844 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 13:51:09.396 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7908 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 13:51:56.863 [main] INFO  com.test.Application -
+				Started Application in 47.828 seconds (JVM running for 60.209)
+2015-10-05 13:54:19.061 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [B85346803FBE760C8EFE70561A5904AF] [GET] [/login] [4ms] [OK]
+2015-10-05 13:54:53.554 [http-nio-8080-exec-4] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [B85346803FBE760C8EFE70561A5904AF] [GET] [/login] [0ms] [OK]
+2015-10-05 13:55:03.891 [http-nio-8080-exec-5] INFO  c.t.config.loging.RequestInterceptor -
+				Visitor [B85346803FBE760C8EFE70561A5904AF] [POST] [/error] [38ms] [OK]
+2015-10-05 13:55:07.326 [http-nio-8080-exec-6] INFO  c.t.config.loging.RequestInterceptor -
+				Visitor [B85346803FBE760C8EFE70561A5904AF] [POST] [/error] [7ms] [OK]
+2015-10-05 13:55:14.369 [http-nio-8080-exec-7] INFO  c.t.config.loging.RequestInterceptor -
+				Visitor [B85346803FBE760C8EFE70561A5904AF] [POST] [/error] [2ms] [OK]
+2015-10-05 13:55:35.089 [http-nio-8080-exec-9] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [B85346803FBE760C8EFE70561A5904AF] [GET] [/login] [1ms] [OK]
+2015-10-05 13:55:47.549 [http-nio-8080-exec-10] INFO  c.t.config.loging.RequestInterceptor -
+				Visitor [B85346803FBE760C8EFE70561A5904AF] [POST] [/error] [1ms] [OK]
+2015-10-05 13:57:42.438 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 12132 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 13:57:48.825 [main] INFO  com.test.Application -
+				Started Application in 6.529 seconds (JVM running for 7.229)
+2015-10-05 13:58:17.774 [http-nio-8080-exec-3] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/] [1ms] [OK]
+2015-10-05 13:58:22.515 [http-nio-8080-exec-1] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/login] [0ms] [OK]
+2015-10-05 13:58:48.640 [http-nio-8080-exec-8] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/] [1ms] [OK]
+2015-10-05 13:58:49.848 [http-nio-8080-exec-10] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/login] [1ms] [OK]
+2015-10-05 14:05:30.872 [http-nio-8080-exec-1] INFO  c.t.config.loging.RequestInterceptor -
+				Visitor [781542889D635B8E053D38C32403EA76] [POST] [/error] [2ms] [OK]
+2015-10-05 14:05:44.931 [http-nio-8080-exec-7] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/login] [0ms] [OK]
+2015-10-05 14:06:44.268 [http-nio-8080-exec-4] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/failure] [29ms] [OK]
+2015-10-05 14:06:57.258 [http-nio-8080-exec-10] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/] [email=asish.sahoo@talentica.com|] [0ms] [OK]
+2015-10-05 14:06:57.570 [http-nio-8080-exec-10] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/login] [0ms] [OK]
+2015-10-05 14:07:11.468 [http-nio-8080-exec-3] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/] [1ms] [OK]
+2015-10-05 14:07:11.804 [http-nio-8080-exec-1] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [781542889D635B8E053D38C32403EA76] [GET] [/login] [0ms] [OK]
+2015-10-05 14:16:01.651 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 10924 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 14:16:07.239 [main] INFO  com.test.Application -
+				Started Application in 5.722 seconds (JVM running for 6.504)
+2015-10-05 14:16:28.547 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [788398D44383DB83A3AAF45BCFFFCA5F] [GET] [/login] [2ms] [OK]
+2015-10-05 14:23:54.220 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 11044 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 14:24:01.050 [main] INFO  com.test.Application -
+				Started Application in 6.981 seconds (JVM running for 12.838)
+2015-10-05 14:24:16.085 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [3244261B1E348E4057D9D6BC19B44C7F] [GET] [/login] [2ms] [OK]
+2015-10-05 14:24:22.839 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9908 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 14:24:29.574 [main] INFO  com.test.Application -
+				Started Application in 6.887 seconds (JVM running for 7.695)
+2015-10-05 14:24:35.501 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [5FCEC8434FF6998BF565E1679D7D06D8] [GET] [/login] [3ms] [OK]
+2015-10-05 14:25:34.504 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 13212 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 14:25:41.467 [main] INFO  com.test.Application -
+				Started Application in 7.114 seconds (JVM running for 7.888)
+2015-10-05 14:25:43.988 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [DB1FF0BA44D33B575B91CE6CD061A3A5] [GET] [/login] [2ms] [OK]
+2015-10-05 16:24:26.051 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7520 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 16:24:35.962 [main] INFO  com.test.Application -
+				Started Application in 10.148 seconds (JVM running for 13.167)
+2015-10-05 16:24:45.103 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [EC56A3EDB108BF46B06D9B89EACC8D94] [GET] [/login] [2ms] [OK]
+2015-10-05 16:42:35.656 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9232 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 16:42:41.327 [main] INFO  com.test.Application -
+				Started Application in 5.801 seconds (JVM running for 6.475)
+2015-10-05 16:42:49.369 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [EBEAF07DA2AAB0841E44CC571F1BA3C1] [GET] [/login] [2ms] [OK]
+2015-10-05 16:42:59.711 [http-nio-8080-exec-4] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [EBEAF07DA2AAB0841E44CC571F1BA3C1] [GET] [/login] [0ms] [OK]
+2015-10-05 16:44:12.881 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7316 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 16:44:18.346 [main] INFO  com.test.Application -
+				Started Application in 5.594 seconds (JVM running for 6.302)
+2015-10-05 16:44:23.067 [http-nio-8080-exec-2] INFO  c.t.config.loging.RequestInterceptor -
+				anonymousUser [94F4035B50504DD69C642857535857BC] [GET] [/login] [2ms] [OK]
+2015-10-05 16:48:11.990 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 3052 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 16:48:17.224 [main] INFO  com.test.Application -
+				Started Application in 5.363 seconds (JVM running for 6.022)
+2015-10-05 16:49:21.801 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 12040 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-10-05 16:49:27.423 [main] INFO  com.test.Application -
+				Started Application in 5.75 seconds (JVM running for 6.415)

@@ -1,0 +1,4 @@
+Backend as a Service (BAAS)
+
+what we need for?
+push notifications, user management, file storage, geolocation and ability to store custom objects
