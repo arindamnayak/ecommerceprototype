@@ -1,0 +1,34 @@
+
+<ion-view title="Home" ng-app="app" ng-controller="homeCtrl">
+
+  </ion-side-menus>
+
+    <ion-content padding="true" class="has-header">
+      </ion-header-bar>
+      <div align="right">
+        <a>Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a ng-href="#/checkOut" >Cart</a>&nbsp;&nbsp;
+        <a ng-href="#/login" ng-click="logout()">Logout</a>&nbsp;&nbsp;
+      </div>
+        <ion-header-bar align-title="left" class="item-input-inset">
+        <label class="item-input-wrapper">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" ng-model="data">
+        </label>
+        <button class="button button-clear" ng-click="search(data)">
+          Search
+        </button>
+
+      </ion-header-bar>
+        <form class="list"  >
+
+           <!-- <label class="item item-input" name="Search">
+                <i class="icon ion-search placeholder-icon" ></i>
+                <input type="search" placeholder="Search Products" ng-model="data"  >
+            </label>-->
+        </form>
+        <ion-list ng-repeat="category in categorys">
+            <ion-item  ng-click="select(category)">{{category.get('Type')}}</ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
