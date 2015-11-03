@@ -2,7 +2,7 @@
 
   <ion-content padding="true" class="has-header">
     <div align="right">
-      <a>Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a ng-href="#home">Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a ng-href="#/checkOut">Cart</a>&nbsp;&nbsp;
       <a ng-href="#/login" ng-click="logout()">Logout</a>&nbsp;&nbsp;
     </div>
@@ -14,6 +14,8 @@
     </ion-list>
       <i align="right">Total : {{total}} </i>
 
-    <a ng-click="placeOrder()" class="button button-energized button-block">Make Payment</a>
+    <a  ng-click="placeOrder()" class="button button-energized button-block"  ng-hide="isOrderPlaced">Place Order</a>
+    <a class="button button-balanced button-block" ng-show="isOrderPlaced"> Order Placed successfully</a>
   </ion-content>
+
 </ion-view>
