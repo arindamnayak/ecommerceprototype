@@ -1,4 +1,4 @@
-angular.module('app.controllers', ['ngCookies'])
+angular.module('app.controllers', [])//['ngCookies'])
 
   .controller('loginCtrl', ['$scope', function ($scope) {
 
@@ -35,7 +35,7 @@ angular.module('app.controllers', ['ngCookies'])
     };
   })
 
-  .controller('homeCtrl', function ($scope, MyCategoryService, Utils,$cookies,$rootScope) {
+  .controller('homeCtrl', function ($scope, MyCategoryService, Utils,$rootScope) {
 
     var category = Parse.Object.extend("Category");
     var query = new Parse.Query(category);
@@ -59,7 +59,7 @@ angular.module('app.controllers', ['ngCookies'])
         success: function (Products) {
           MyCategoryService.set(Products);
           //$cookieStore.put('products',Products);
-          $cookies.prod = Products;
+         // $cookies.prod = Products;
           for (i = 0; i < Products.length; i++) {
             console.log(Products[i].get('productName'));
           }
@@ -95,7 +95,7 @@ angular.module('app.controllers', ['ngCookies'])
 
   })
 
-  .controller('productsCtrl', function ($scope, MyCategoryService, MyProductService, Utils,$cookies,$rootScope) {
+  .controller('productsCtrl', function ($scope, MyCategoryService, MyProductService, Utils,$rootScope) {
     //console.log(MyCategoryService.get());
   $scope.products = MyCategoryService.get();
      // $scope.products = $cookieStore.get('products');
@@ -111,7 +111,7 @@ angular.module('app.controllers', ['ngCookies'])
           if (Products[0] != null) {
             MyProductService.set(Products[0]);
             //$cookieStore.put('selectedProduct',Products[0]);
-            $cookies.selectedProd = Products[0];
+            //$cookies.selectedProd = Products[0];
             console.log(Products[0]);
             location.href = "#/cart";
           } else {
@@ -130,10 +130,10 @@ angular.module('app.controllers', ['ngCookies'])
 
   })
 
-  .controller('cartCtrl', function ($scope,$rootScope, MyProductService, Utils,CheckOut,$cookies,$timeout) {
-       // var productDetails = MyProductService.get();
+  .controller('cartCtrl', function ($scope,$rootScope, MyProductService, Utils,CheckOut,$timeout) {
+        var productDetails = MyProductService.get();
       //var productDetails =$cookieStore.get('selectedProduct');
-      var productDetails = $cookies.selectedProd;
+      //var productDetails = $cookies.selectedProd;
       console.log("product details"+productDetails);
       $scope.url=productDetails.get('product').get('url');
       $scope.productName=productDetails.get('product').get('productName');
@@ -320,7 +320,7 @@ angular.module('app.controllers', ['ngCookies'])
     $scope.products = Payment1.getItems();
     $scope.total = Payment1.get();
 
-
+     $scope.isOrderPlaced = false;
       var OrderNo = Utils.Order();
       var productList=[];
       for(var i=0;i<$scope.products.length;i++){
@@ -330,6 +330,7 @@ angular.module('app.controllers', ['ngCookies'])
 
       var OrderInput= {"orderId":OrderNo,"productList":productList};
       $scope.placeOrder= function() {
+        $scope.isOrderPlaced = true;
         RestAPI.updateOrder(OrderInput).success(function (result) {
           console.log("Data from Rest API is: " + result.status);
           console.log("Data from Rest API is: " + result.message);
@@ -359,27 +360,31 @@ angular.module('app.controllers', ['ngCookies'])
       order.set('currency', $scope.products[0].get('product').get('currency'));
       order.set('TotalTaxAmt',0);
       order.save(
-        {success: function(obj){
-          alert("Order placed successfully, your Order Id is "+obj.get('OrderNo'));
-          for(i=0;i<$scope.products.length;i++){
+        {success: function(obj) {
+          alert("Order placed successfully, your Order Id is " + obj.get('OrderNo'));
+          for (i = 0; i < $scope.products.length; i++) {
             var OrderItem = Parse.Object.extend("Order_Items");
             var orderItem = new OrderItem();
-            orderItem.set('order',obj);
-            orderItem.set('product',$scope.products[i].get('product'));
-            orderItem.set('totalQty',$scope.products[i].get('qty'));
-            (function (i) {orderItem.save({
-              success: function(object){
+            orderItem.set('order', obj);
+            orderItem.set('product', $scope.products[i].get('product'));
+            orderItem.set('totalQty', $scope.products[i].get('qty'));
+            (function (i) {
+              orderItem.save({
+                success: function (object) {
 
-              }
-              ,
-              error: function(object,error){
-                console.log(error.message);
-              }
-            })}(i));
+                }
+                ,
+                error: function (object, error) {
+                  console.log(error.message);
+                }
+              })
+            }(i));
 
           }
 
           shipment(obj);
+
+
         }
           , error: function(obj,error){
 
