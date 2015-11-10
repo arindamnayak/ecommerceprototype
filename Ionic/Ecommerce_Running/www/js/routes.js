@@ -126,6 +126,12 @@ angular.module('app.routes', [])
         controller: 'paymentCtrl'
       })
 
+      .state('vendorOption', {
+        url: '/vendorOption',
+        templateUrl: 'templates/vendorOption.html',
+        controller: 'vendorCtrl'
+      })
+
     ;
 
     // if none of the above states are matched, use this as the fallback
