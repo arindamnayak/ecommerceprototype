@@ -1,19 +1,34 @@
 angular.module('app.controllers', [])//['ngCookies'])
 
-  .controller('loginCtrl', ['$scope', function ($scope) {
-
+  .controller('loginCtrl', function($scope,$rootScope) {
+    $rootScope.isAdmin = false;
     $scope.login = function (User) {
       var username = User.username;
       var password = User.password;
       Parse.User.logIn(username, password, {
         success: function (user) {
+
+          Parse.Cloud.run("isAdmin", {"username":user.get('username')}
+          ,{
+            success: function(result) {
+              console.log("Result : "+result);
+              $rootScope.isAdmin = result;
+            },
+            error: function(error) { console.log(error.message);
+              }
+            }
+
+          );
+
+
           location.href = "#/home";
+
         }, error: function (user, error) {
           console.log(error.message);
         }
       });
     };
-  }])
+  })
 
   .controller('signupCtrl', function ($scope) {
 
@@ -35,13 +50,17 @@ angular.module('app.controllers', [])//['ngCookies'])
     };
   })
 
-  .controller('homeCtrl', function ($scope, MyCategoryService, Utils,$rootScope) {
+  .controller('homeCtrl', function ($scope, MyCategoryService, Utils,$rootScope,myCache) {
+
+
 
     var category = Parse.Object.extend("Category");
     var query = new Parse.Query(category);
     query.find({
       success: function (Categorys) {
         $scope.categorys = Categorys;
+        $rootScope.categoryforAdd = Categorys;
+        console.log("Retrieving Categories");
         /*for(i=0;i<Categorys.length;i++){
          console.log(Categorys[i].get('Type'));
          }*/
@@ -60,6 +79,7 @@ angular.module('app.controllers', [])//['ngCookies'])
           MyCategoryService.set(Products);
           //$cookieStore.put('products',Products);
          // $cookies.prod = Products;
+          console.log("retrieving products");
           for (i = 0; i < Products.length; i++) {
             console.log(Products[i].get('productName'));
           }
@@ -77,6 +97,8 @@ angular.module('app.controllers', [])//['ngCookies'])
       query.contains("productDesc", data);
       query.find({
         success: function (Products) {
+
+          console.log("Retrieving Product Details");
           for (i = 0; i < Products.length; i++) {
             console.log("Product " + Products[i].get("productName"));
           }
@@ -150,24 +172,7 @@ angular.module('app.controllers', [])//['ngCookies'])
       cart.save(null, {
         success: function (Cart) {
         $scope.cart= Cart;
-          /*$rootScope.products.push($scope.cart);*/
-          //CheckOut.then(
-          //    function(result){
-          //      $rootScope.products=result;
-          //      console.log("item added to cart"+result.length);
-          //    });
 
-         /* var items = Parse.Object.extend("Cart");
-          var query = new Parse.Query(items);
-          query.equalTo('user', Parse.User.current());
-          query.find({
-            success: function (art) {
-              console.log("Items in cart "+art.length);
-              $rootScope.products=art;
-            }, error: function (error) {
-              alert("Error: " + error.code + " " + error.message);
-            }
-          });*/
           alert("Added To Cart");
         },
         error: function (Cart, error) {
@@ -177,24 +182,6 @@ angular.module('app.controllers', [])//['ngCookies'])
         }
       });
 
-      /* var Order = Parse.Object.extend("Cart");
-       var order = new Order();
-
-       order.set("Status", "In Progress");
-       order.set("user", Parse.User.current());
-       // order.set("cheatMode", false);
-       console.log(Parse.User.current());
-       order.save(null, {
-       success: function (Order) {
-
-       alert('Added to Cart');
-       },
-       error: function (Order, error) {
-       // Execute any logic that should take place if the save fails.
-       // error is a Parse.Error with an error code and message.
-       alert('Failed ' + error.message);
-       }
-       });*/
 
 
 
@@ -311,7 +298,7 @@ angular.module('app.controllers', [])//['ngCookies'])
       }
        $scope.logout = function () {
       Utils.logout();
-    };
+       };
 
   })
 
@@ -459,4 +446,83 @@ angular.module('app.controllers', [])//['ngCookies'])
       }, function () {
       }
     );
+  })
+
+  .controller('vendorCtrl',function($cordovaCamera,$scope,$rootScope){
+
+
+
+    $scope.addProduct = function(data,productCategory){
+
+      console.log("category "+$rootScope.categoryforAdd[+productCategory]);
+      var Category = Parse.Object.extend("Category");
+      var Product = Parse.Object.extend("Product");
+      var product = new Product();
+
+      product.set("availableQty",data.availableQty);
+      product.set("category",$rootScope.categoryforAdd[+productCategory]);
+      product.set("modelNo",data.modelNo);
+      product.set("productDesc",data.productDesc);
+      product.set("productName",data.product);
+      product.set("unitPrice",+data.unitPrice);
+      product.set("url",$scope.imgURI);
+
+      product.save(null,{success : function(obj){
+       /* obj.set("category",productCategory.id);
+        obj.save();*/
+
+        var ProductDetails = new Parse.Object.extend("Product_Details");
+        var productDetails = new ProductDetails();
+
+        productDetails.set("Product_Brand",data.Product_Brand);
+        productDetails.set("Product_Manufacturer",data.Product_Manufacturer);
+
+
+        productDetails.save({
+          success : function(object){
+            alert("Product added successfully");
+            object.set("product",obj);
+            object.save();
+          },
+          error : function(object,error){
+            alert("Error while adding product details "+error.message);
+
+          }
+        });
+
+
+      },
+      error : function(obj,error){
+        alert("Error while adding product "+error.message);
+
+      }})
+
+    }
+
+
+
+
+
+
+    $scope.takePicture = function() {
+      var options = {
+        quality : 50,
+        destinationType : Camera.DestinationType.DATA_URL,
+        sourceType : Camera.PictureSourceType.CAMERA,
+        allowEdit : true,
+        encodingType: Camera.EncodingType.JPEG,
+        targetWidth: 300,
+        targetHeight: 300,
+        popoverOptions: CameraPopoverOptions,
+        saveToPhotoAlbum: false
+      };
+
+      $cordovaCamera.getPicture(options).then(function(imageData) {
+       $scope.imgURI = "data:image/jpeg;base64," + imageData;
+        //alert("size of image "+ imageData.size())
+      }, function(err) {
+       // alert("error "+err.message);
+        // An error occured. Show a message to the user
+      });
+    }
   })

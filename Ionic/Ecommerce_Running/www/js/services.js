@@ -7,6 +7,10 @@ angular.module('app.services', [])
             },
             logout: function () {
                 Parse.User.logOut();
+                    $ionicHistory.clearCache();
+                    $ionicHistory.clearHistory();
+                    $log.debug('clearing cache')
+
             },
             Order: function () {
                 return Math.random().toString(36).substring(7);
@@ -37,6 +41,7 @@ angular.module('app.services', [])
             get: get
         }
     }])
+
     .service('MyProductService', [function () {
         var savedData = {};
 
@@ -60,7 +65,6 @@ angular.module('app.services', [])
         }
 
     }])
-
 
     .service('Payment1', [function () {
         var savedData = {};
@@ -121,12 +125,12 @@ angular.module('app.services', [])
 
         var service = {
             getPayment: function () {
-                return $http.get('http://172.19.24.34:8080/api/v1/display', {});
+                return $http.get('http://54.175.70.244:8080/mls/api/v1/display', {});
             }
             ,
 
             updateOrder: function (Order) {
-                return $http.post('http://172.19.24.34:8080/api/v1/update', Order, {
+                return $http.post('http://54.175.70.244:8080/mls/api/v1/update', Order, {
                     headers: {'Content-Type': 'application/json'}
                 });
             }
@@ -134,6 +138,9 @@ angular.module('app.services', [])
         return service;
     })
 
+    .factory('myCache', function ($cacheFactory) {
+     return $cacheFactory('myData');
+});
 
-;
+
 
