@@ -1,0 +1,132 @@
+2015-11-17 12:06:23.533 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7884 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:08:16.808 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7560 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:08:45.232 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7368 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:08:51.543 [main] INFO  com.test.Application -
+				Started Application in 6.442 seconds (JVM running for 7.111)
+2015-11-17 12:18:37.216 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 8916 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:18:42.952 [main] INFO  com.test.Application -
+				Started Application in 5.878 seconds (JVM running for 6.556)
+2015-11-17 12:29:26.856 [http-nio-8080-exec-3] ERROR c.t.p.p.i.c.CitruspayPaymentGateway -
+				transaction failed 
+2015-11-17 12:29:26.856 [http-nio-8080-exec-3] INFO  c.t.B.controller.PaymentController -
+				Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 12:35:01.389 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 4600 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:35:07.093 [main] INFO  com.test.Application -
+				Started Application in 5.861 seconds (JVM running for 6.556)
+2015-11-17 12:36:02.488 [http-nio-8080-exec-2] ERROR c.t.p.p.i.c.CitruspayPaymentGateway -
+				transaction failed 
+2015-11-17 12:36:02.498 [http-nio-8080-exec-2] INFO  c.t.B.controller.PaymentController -
+				Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 12:42:31.915 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7572 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:42:37.702 [main] INFO  com.test.Application -
+				Started Application in 5.955 seconds (JVM running for 6.615)
+2015-11-17 12:43:05.422 [http-nio-8080-exec-1] ERROR c.t.p.p.i.c.CitruspayPaymentGateway -
+				transaction failed 
+2015-11-17 12:46:27.105 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9192 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:46:32.988 [main] INFO  com.test.Application -
+				Started Application in 6.033 seconds (JVM running for 6.784)
+2015-11-17 12:52:16.343 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 8280 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 12:52:22.225 [main] INFO  com.test.Application -
+				Started Application in 6.058 seconds (JVM running for 6.733)
+2015-11-17 13:12:44.743 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9060 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 13:12:50.498 [main] INFO  com.test.Application -
+				Started Application in 5.928 seconds (JVM running for 6.606)
+2015-11-17 13:16:49.180 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7868 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 13:17:34.750 [main] INFO  com.test.Application -
+				Started Application in 45.74 seconds (JVM running for 82.449)
+2015-11-17 14:23:46.083 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 5620 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:23:59.876 [main] INFO  com.test.Application -
+				Started Application in 14.076 seconds (JVM running for 17.387)
+2015-11-17 14:33:50.174 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 8152 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:34:20.004 [main] INFO  com.test.Application -
+				Started Application in 30.379 seconds (JVM running for 49.07)
+2015-11-17 14:37:20.494 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 6176 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:37:27.871 [main] INFO  com.test.Application -
+				Started Application in 7.525 seconds (JVM running for 8.292)
+2015-11-17 14:49:17.221 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7748 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:49:24.886 [main] INFO  com.test.Application -
+				Started Application in 7.825 seconds (JVM running for 9.581)
+2015-11-17 14:50:25.577 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 3796 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:50:31.570 [main] INFO  com.test.Application -
+				Started Application in 6.141 seconds (JVM running for 6.836)
+2015-11-17 14:53:18.124 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 8656 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:53:24.273 [main] INFO  com.test.Application -
+				Started Application in 6.313 seconds (JVM running for 7.023)
+2015-11-17 14:58:22.864 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 1300 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 14:58:28.843 [main] INFO  com.test.Application -
+				Started Application in 6.143 seconds (JVM running for 6.838)
+2015-11-17 15:17:20.988 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7820 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 15:17:27.058 [main] INFO  com.test.Application -
+				Started Application in 6.234 seconds (JVM running for 6.921)
+2015-11-17 15:21:56.672 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7676 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 15:22:02.516 [main] INFO  com.test.Application -
+				Started Application in 6.037 seconds (JVM running for 6.713)
+2015-11-17 15:41:48.577 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 10148 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 15:42:10.858 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 8424 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 15:42:17.411 [main] INFO  com.test.Application -
+				Started Application in 6.78 seconds (JVM running for 7.562)
+2015-11-17 16:15:31.208 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9488 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 16:15:39.261 [main] INFO  com.test.Application -
+				Started Application in 8.272 seconds (JVM running for 9.976)
+2015-11-17 17:34:20.252 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 8840 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 17:34:26.467 [main] INFO  com.test.Application -
+				Started Application in 6.37 seconds (JVM running for 7.108)
+2015-11-17 17:36:17.080 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9648 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 17:36:23.253 [main] INFO  com.test.Application -
+				Started Application in 6.358 seconds (JVM running for 7.05)
+2015-11-17 17:38:29.883 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 5584 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 17:38:36.179 [main] INFO  com.test.Application -
+				Started Application in 6.433 seconds (JVM running for 7.114)
+2015-11-17 17:49:12.379 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 4280 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 17:49:18.941 [main] INFO  com.test.Application -
+				Started Application in 6.722 seconds (JVM running for 7.397)
+2015-11-17 18:10:12.649 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 9540 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 18:10:18.990 [main] INFO  com.test.Application -
+				Started Application in 6.48 seconds (JVM running for 7.232)
+2015-11-17 18:15:36.789 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 7668 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 18:15:43.112 [main] INFO  com.test.Application -
+				Started Application in 6.477 seconds (JVM running for 7.204)
+2015-11-17 18:15:56.334 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 10040 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 18:16:02.362 [main] INFO  com.test.Application -
+				Started Application in 6.187 seconds (JVM running for 6.879)
+2015-11-17 18:19:24.928 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 10116 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 18:19:30.991 [main] INFO  com.test.Application -
+				Started Application in 6.231 seconds (JVM running for 6.903)
+2015-11-17 18:22:48.153 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 5260 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 18:22:54.350 [main] INFO  com.test.Application -
+				Started Application in 6.346 seconds (JVM running for 7.037)
+2015-11-17 18:26:48.734 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 6996 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-17 18:26:54.826 [main] INFO  com.test.Application -
+				Started Application in 6.252 seconds (JVM running for 6.932)

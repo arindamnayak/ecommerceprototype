@@ -15,6 +15,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 import com.test.config.security.util.CommonPasswordEncoder;
+import com.test.security.config.CustomSecurityFailureHandler;
+import com.test.security.config.CustomSecuritySuccessHandler;
 
 @Configuration
 @EnableWebSecurity

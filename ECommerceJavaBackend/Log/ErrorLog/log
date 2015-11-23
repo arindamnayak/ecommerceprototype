@@ -1,0 +1,71 @@
+2015-11-17 12:46:52 ERROR CitruspayPaymentGateway:84 - transaction failed null
+2015-11-17 12:52:38 ERROR CitruspayPaymentGateway:84 - transaction failed null
+2015-11-17 13:01:27 ERROR CitruspayPaymentGateway:84 - transaction failed null
+2015-11-17 13:13:09 ERROR CitruspayPaymentGateway:84 - transaction failed null
+2015-11-17 14:20:13 ERROR CitruspayPaymentGateway:84 - transaction failed null
+2015-11-17 14:25:18 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-17 14:35:47 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-17 14:38:08 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-17 14:38:08 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-17 14:38:08 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-17 14:50:47 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-17 18:19:39 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-17 18:19:39 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-17 18:20:56 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-17 18:20:56 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-18 10:59:22 ERROR CryptoUtil:115 - javax.crypto.IllegalBlockSizeException: Input length must be multiple of 16 when decrypting with padded cipher
+2015-11-18 10:59:23 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 10:59:23 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-18 11:05:11 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:05:12 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:05:12 ERROR CitruspayPaymentGateway:85 - transaction failed null
+2015-11-18 11:08:50 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:08:50 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:15:52 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:15:52 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:16:33 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:16:34 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:20:00 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:20:00 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:21:00 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:21:00 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:21:02 ERROR OrderController:255 - ParseException [code=111, error=invalid type for key paymentNo, expected string, but got number]
+2015-11-18 11:25:46 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:26:08 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:27:48 ERROR OrderController:255 - ParseException [code=111, error=invalid type for key paymentNo, expected string, but got number]
+2015-11-18 11:40:58 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:41:07 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:42:49 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:42:54 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:44:12 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:44:13 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:45:24 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:45:38 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:47:35 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:47:45 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 11:52:02 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 11:52:03 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:07:55 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:07:56 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:11:56 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:12:06 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:12:25 ERROR OrderController:259 - ParseException [code=101, error=object not found for update]
+2015-11-18 12:16:41 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:17:54 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:19:33 ERROR OrderController:261 - ParseException [code=101, error=object not found for update]
+2015-11-18 12:24:12 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:24:13 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:24:17 ERROR OrderController:261 - ParseException [code=101, error=object not found for update]
+2015-11-18 12:32:04 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:32:04 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:32:08 ERROR OrderController:261 - ParseException [code=101, error=object not found for update]
+2015-11-18 12:33:39 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:33:39 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:33:43 ERROR OrderController:261 - ParseException [code=101, error=object not found for update]
+2015-11-18 12:49:54 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:49:55 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:49:58 ERROR OrderController:261 - ParseException [code=101, error=object not found for update]
+2015-11-18 12:56:20 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:56:20 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay
+2015-11-18 12:58:31 ERROR CryptoUtil:117 - javax.crypto.BadPaddingException: Given final block not properly padded
+2015-11-18 12:58:31 ERROR CitruspayPaymentGateway:195 - Failed to create connection {}java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandboxadmin.citruspay.com/service/v2/prepayment/pay

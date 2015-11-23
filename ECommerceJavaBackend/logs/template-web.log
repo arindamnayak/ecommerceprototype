@@ -1,8 +1,4 @@
-2015-11-02 11:35:09.501 [main] INFO  com.test.Application -
-				Starting Application on AsishS with PID 12636 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
-2015-11-02 11:35:16.444 [main] INFO  com.test.Application -
-				Started Application in 7.094 seconds (JVM running for 7.864)
-2015-11-02 14:11:48.634 [main] INFO  com.test.Application -
-				Starting Application on AsishS with PID 5156 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
-2015-11-02 14:11:54.331 [main] INFO  com.test.Application -
-				Started Application in 5.857 seconds (JVM running for 6.583)
+2015-11-16 12:43:49.262 [main] INFO  com.test.Application -
+				Starting Application on AsishS with PID 5276 (D:\Projects\ECommerseTemplate\template-web\bin started by AsishS in D:\Projects\ECommerseTemplate\template-web)
+2015-11-16 12:43:57.236 [main] INFO  com.test.Application -
+				Started Application in 8.185 seconds (JVM running for 9.651)
