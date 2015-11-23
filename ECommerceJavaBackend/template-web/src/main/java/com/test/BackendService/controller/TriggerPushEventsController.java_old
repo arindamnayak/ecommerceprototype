@@ -1,0 +1,33 @@
+package com.test.BackendService.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.google.gson.JsonObject;
+import com.pusher.rest.Pusher;
+
+
+@RestController
+@RequestMapping({ "/api/v1", "" })
+public class TriggerPushEventsController {	
+	
+	private static final String appId =	"151782";
+	private static final String apiKey =	"965b5f64f06390eab7b6";
+	private static final String apiSecret =	"c2f15e4a83adbb2fa151";
+	
+	public void triggerPusherEvent() {		
+		Pusher pusher = new Pusher(appId,apiKey,apiSecret);		
+		JsonObject obj= new JsonObject();
+		obj.addProperty("name","John");
+		obj.addProperty("message","hello Asish here, I am triggering again");		
+		pusher.trigger("my-channel","new_message", obj);
+		System.out.println("Successfully triggered");		
+	}	
+	
+	public static void main(String args[])
+	{
+		TriggerPushEventsController triggerPushEventsController= new TriggerPushEventsController();
+		triggerPushEventsController.triggerPusherEvent();
+	}
+
+}

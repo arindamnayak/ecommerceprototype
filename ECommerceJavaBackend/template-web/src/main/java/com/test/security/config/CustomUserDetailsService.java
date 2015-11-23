@@ -7,6 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
 import com.test.persistence.entities.User;
+import com.test.security.config.SecurityUser;
 import com.test.service.UserService;
 
 @Component

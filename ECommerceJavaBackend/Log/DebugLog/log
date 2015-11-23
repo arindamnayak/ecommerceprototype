@@ -1,0 +1,433 @@
+2015-11-16 14:35:29 DEBUG OrderController:64 - Getting hit for updateOrder
+2015-11-16 14:35:29 DEBUG OrderController:71 - OrderId requested is: d47rWnbZ7q
+2015-11-16 14:35:29 DEBUG OrderController:77 - No of products in the list is : 3
+2015-11-16 14:37:19 DEBUG OrderController:64 - Getting hit for updateOrder
+2015-11-16 14:37:19 DEBUG OrderController:71 - OrderId requested is: d47rWnbZ7q
+2015-11-16 14:37:19 DEBUG OrderController:77 - No of products in the list is : 3
+2015-11-16 16:06:32 DEBUG OrderController:64 - Getting hit for updateOrder
+2015-11-16 16:06:32 DEBUG OrderController:71 - OrderId requested is: d47rWnbZ7q
+2015-11-16 16:06:32 DEBUG OrderController:77 - No of products in the list is : 3
+2015-11-17 12:16:49 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:16:49 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:16:49 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:18:56 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:18:56 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:18:56 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:27:44 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:27:44 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:27:44 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:27:51 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:29:19 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:29:19 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:29:19 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:29:26 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:35:14 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:35:14 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:35:14 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:35:54 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:35:54 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:35:54 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:36:02 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:42:57 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:42:57 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:42:57 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:43:05 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 12:43:05 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:43:05 DEBUG PaymentController:88 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 12:46:44 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:46:44 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:46:44 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:46:52 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 12:46:52 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:46:52 DEBUG PaymentController:88 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 12:52:30 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 12:52:30 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:52:30 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 12:52:38 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 12:52:38 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:52:38 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 12:52:38 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 13:01:20 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 13:01:20 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 13:01:20 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 13:01:27 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 13:01:27 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 13:01:27 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 13:01:27 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 13:12:57 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 13:12:57 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 13:12:57 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 13:13:09 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 13:13:09 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 13:13:09 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 13:13:09 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 13:18:28 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 13:18:31 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 13:18:31 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 13:18:55 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 13:20:16 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 13:20:18 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 13:20:20 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:25:03 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:25:03 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:25:03 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:25:18 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 14:25:18 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:25:18 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:25:18 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:34:31 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:34:32 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:34:32 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:34:52 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 14:35:02 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:35:03 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:35:10 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:38:00 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:38:00 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:38:00 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:38:08 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 14:38:08 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:38:08 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:38:08 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:49:32 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:49:32 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:49:32 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:50:36 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:50:36 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:50:36 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:50:47 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=null, pgCode=CITRUSPAY, amount=1.0, checkSum=null, comment=null, currency=INR]
+2015-11-17 14:50:47 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:50:47 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:50:47 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=null, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:53:47 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:53:47 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:53:47 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:54:07 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 14:54:07 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:54:07 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:54:07 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:54:08 DEBUG CitruspayPaymentGateway:192 - 1495597
+2015-11-17 14:54:52 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:54:52 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:54:52 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:55:00 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ7q, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 14:55:00 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:55:00 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:55:00 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ7q, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ7q, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:55:00 DEBUG CitruspayPaymentGateway:192 - 1495598
+2015-11-17 14:56:07 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:56:07 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:56:07 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:56:18 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ71, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 14:56:18 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:56:18 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:56:18 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ71, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ71, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:56:19 DEBUG CitruspayPaymentGateway:192 - 1495599
+2015-11-17 14:58:32 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 14:58:32 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:58:32 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 14:59:01 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ72, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 14:59:01 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:59:01 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 14:59:01 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ72, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ72, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 14:59:02 DEBUG CitruspayPaymentGateway:192 - 1495601
+2015-11-17 15:17:42 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 15:17:42 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 15:17:42 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 15:17:50 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ72, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 15:17:50 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:17:50 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:17:50 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ72, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ72, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 15:17:51 DEBUG CitruspayPaymentGateway:192 - 1495605
+2015-11-17 15:27:37 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 15:27:37 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 15:27:37 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 15:27:50 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ72, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 15:27:50 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:27:50 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:27:50 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ72, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ72, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 15:27:51 DEBUG CitruspayPaymentGateway:192 - 1495608
+2015-11-17 15:29:35 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 15:29:35 DEBUG OrderController:82 - OrderId requested is: d47rWnbZ7q
+2015-11-17 15:29:35 DEBUG OrderController:88 - No of products in the list is : 3
+2015-11-17 15:29:44 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=d47rWnbZ72, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 15:29:44 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:29:44 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:29:44 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=d47rWnbZ72, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=d47rWnbZ72, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 15:29:45 DEBUG CitruspayPaymentGateway:192 - 1495609
+2015-11-17 15:42:56 DEBUG OrderController:75 - Getting hit for updateOrder
+2015-11-17 15:42:56 DEBUG OrderController:82 - OrderId requested is: 33a3v1gu8fr
+2015-11-17 15:42:56 DEBUG OrderController:88 - No of products in the list is : 1
+2015-11-17 15:42:59 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=33a3v1gu8fr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 15:42:59 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:42:59 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 15:42:59 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=33a3v1gu8fr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=33a3v1gu8fr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 15:43:00 DEBUG CitruspayPaymentGateway:192 - 1495611
+2015-11-17 16:16:42 DEBUG OrderController:82 - Getting hit for updateOrder
+2015-11-17 16:16:42 DEBUG OrderController:100 - OrderId requested is: vhp8d26gvi
+2015-11-17 16:16:42 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-17 16:16:46 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=vhp8d26gvi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 16:16:46 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 16:16:46 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 16:16:46 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=vhp8d26gvi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=vhp8d26gvi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 16:16:47 DEBUG CitruspayPaymentGateway:192 - 1495624
+2015-11-17 17:35:28 DEBUG OrderController:82 - Getting hit for updateOrder
+2015-11-17 17:35:28 DEBUG OrderController:100 - OrderId requested is: ub7a8oxbt9
+2015-11-17 17:35:28 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-17 17:35:30 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=ub7a8oxbt9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 17:35:30 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:35:30 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:35:30 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=ub7a8oxbt9, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=ub7a8oxbt9, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 17:35:31 DEBUG CitruspayPaymentGateway:192 - 1495650
+2015-11-17 17:36:54 DEBUG OrderController:82 - Getting hit for updateOrder
+2015-11-17 17:36:54 DEBUG OrderController:100 - OrderId requested is: e7ed4jwcdi
+2015-11-17 17:36:54 DEBUG OrderController:106 - No of products in the list is : 2
+2015-11-17 17:37:01 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=e7ed4jwcdi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 17:37:01 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:37:01 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:37:01 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=e7ed4jwcdi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=e7ed4jwcdi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 17:37:02 DEBUG CitruspayPaymentGateway:192 - 1495651
+2015-11-17 17:39:12 DEBUG OrderController:82 - Getting hit for updateOrder
+2015-11-17 17:39:12 DEBUG OrderController:100 - OrderId requested is: y250a5x9a4i
+2015-11-17 17:39:12 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-17 17:39:15 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=y250a5x9a4i, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 17:39:15 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:39:15 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:39:15 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=y250a5x9a4i, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=y250a5x9a4i, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 17:39:17 DEBUG CitruspayPaymentGateway:192 - 1495652
+2015-11-17 17:40:25 DEBUG OrderController:82 - Getting hit for updateOrder
+2015-11-17 17:40:25 DEBUG OrderController:100 - OrderId requested is: dotcd0wwmi
+2015-11-17 17:40:25 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-17 17:40:26 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=dotcd0wwmi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 17:40:26 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:40:26 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:40:26 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=dotcd0wwmi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=dotcd0wwmi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 17:40:27 DEBUG CitruspayPaymentGateway:192 - 1495653
+2015-11-17 17:50:26 DEBUG OrderController:86 - Getting hit for updateOrder
+2015-11-17 17:50:26 DEBUG OrderController:104 - OrderId requested is: 4k8ggt1q0k9
+2015-11-17 17:50:26 DEBUG OrderController:110 - No of products in the list is : 2
+2015-11-17 17:50:29 DEBUG PaymentController:55 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=4k8ggt1q0k9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=xyz, comment=BookingForEcommerce, currency=INR]
+2015-11-17 17:50:29 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:50:29 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 17:50:29 DEBUG PaymentController:90 - Request obj doPaymentPgRequestEntity [merchantTransactionId=4k8ggt1q0k9, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=4k8ggt1q0k9, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 17:50:30 DEBUG CitruspayPaymentGateway:192 - 1495654
+2015-11-17 18:10:35 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:10:35 DEBUG OrderController:100 - OrderId requested is: ac9o5lpiudi
+2015-11-17 18:10:35 DEBUG OrderController:105 - No of products in the list is : 2
+2015-11-17 18:10:38 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=ac9o5lpiudi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:10:38 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:10:38 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=ac9o5lpiudi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=ac9o5lpiudi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:10:39 DEBUG CitruspayPaymentGateway:192 - 1495659
+2015-11-17 18:12:19 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:12:19 DEBUG OrderController:100 - OrderId requested is: 047xd9xjemi
+2015-11-17 18:12:19 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:12:20 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=047xd9xjemi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:12:20 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:12:20 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=047xd9xjemi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=047xd9xjemi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:12:21 DEBUG CitruspayPaymentGateway:192 - 1495661
+2015-11-17 18:12:54 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:12:54 DEBUG OrderController:100 - OrderId requested is: x2o18dj9k9
+2015-11-17 18:12:54 DEBUG OrderController:105 - No of products in the list is : 2
+2015-11-17 18:12:57 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=x2o18dj9k9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:12:57 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:12:57 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=x2o18dj9k9, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=x2o18dj9k9, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:12:58 DEBUG CitruspayPaymentGateway:192 - 1495662
+2015-11-17 18:13:39 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:13:39 DEBUG OrderController:100 - OrderId requested is: 5c7fcpzxgvi
+2015-11-17 18:13:39 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:13:40 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=5c7fcpzxgvi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:13:40 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:13:40 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=5c7fcpzxgvi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=5c7fcpzxgvi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:13:41 DEBUG CitruspayPaymentGateway:192 - 1495663
+2015-11-17 18:16:29 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:16:29 DEBUG OrderController:100 - OrderId requested is: egbfd23mcxr
+2015-11-17 18:16:29 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:16:31 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=egbfd23mcxr, status=1, pgCode=CITRUSPAY, amount=0.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:16:53 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:16:53 DEBUG OrderController:100 - OrderId requested is: l23ax9u23xr
+2015-11-17 18:16:53 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:16:54 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=l23ax9u23xr, status=1, pgCode=CITRUSPAY, amount=0.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:19:37 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:19:37 DEBUG OrderController:100 - OrderId requested is: csp3ewjnhfr
+2015-11-17 18:19:37 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:19:38 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=csp3ewjnhfr, status=1, pgCode=CITRUSPAY, amount=0.1, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:19:38 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:19:38 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=csp3ewjnhfr, amount=0.1, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=csp3ewjnhfr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:20:54 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:20:54 DEBUG OrderController:100 - OrderId requested is: r0rhiksxlxr
+2015-11-17 18:20:54 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:20:55 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=r0rhiksxlxr, status=1, pgCode=CITRUSPAY, amount=0.1, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:20:55 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:20:55 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=r0rhiksxlxr, amount=0.1, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=r0rhiksxlxr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:23:04 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:23:04 DEBUG OrderController:100 - OrderId requested is: wmnompiizfr
+2015-11-17 18:23:04 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:23:06 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=wmnompiizfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:23:06 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:23:06 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=wmnompiizfr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=wmnompiizfr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:23:07 DEBUG CitruspayPaymentGateway:192 - 1495671
+2015-11-17 18:27:07 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:27:07 DEBUG OrderController:100 - OrderId requested is: tin3ajxajor
+2015-11-17 18:27:07 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:27:09 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=tin3ajxajor, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:27:09 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:27:09 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=tin3ajxajor, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=tin3ajxajor, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:27:10 DEBUG CitruspayPaymentGateway:192 - 1495673
+2015-11-17 18:27:36 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:27:36 DEBUG OrderController:100 - OrderId requested is: k7fvbjwz5mi
+2015-11-17 18:27:36 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:27:54 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:27:54 DEBUG OrderController:100 - OrderId requested is: qvu7489qkt9
+2015-11-17 18:27:54 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:28:31 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-17 18:28:31 DEBUG OrderController:100 - OrderId requested is: i2lx0hbmx6r
+2015-11-17 18:28:31 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-17 18:28:32 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=i2lx0hbmx6r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:28:32 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-17 18:28:32 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=i2lx0hbmx6r, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=i2lx0hbmx6r, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-17 18:28:33 DEBUG CitruspayPaymentGateway:192 - 1495676
+2015-11-18 10:59:21 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 10:59:21 DEBUG OrderController:100 - OrderId requested is: wdgvzz4obt9
+2015-11-18 10:59:21 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 10:59:22 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=wdgvzz4obt9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 10:59:22 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 10:59:22 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=wdgvzz4obt9, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=wdgvzz4obt9, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:05:10 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:05:10 DEBUG OrderController:100 - OrderId requested is: 6ef6ewb3xr
+2015-11-18 11:05:10 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:05:11 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=6ef6ewb3xr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:05:11 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:05:11 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=6ef6ewb3xr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=6ef6ewb3xr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:08:48 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:08:48 DEBUG OrderController:100 - OrderId requested is: ctrckf647vi
+2015-11-18 11:08:48 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:08:50 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=ctrckf647vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:08:50 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:08:50 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=ctrckf647vi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=ctrckf647vi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:15:50 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:15:50 DEBUG OrderController:100 - OrderId requested is: krxwhk0rudi
+2015-11-18 11:15:50 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:15:52 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=krxwhk0rudi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:15:52 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:15:52 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=krxwhk0rudi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=krxwhk0rudi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:16:32 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:16:32 DEBUG OrderController:100 - OrderId requested is: iairs27f1or
+2015-11-18 11:16:32 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:16:33 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=iairs27f1or, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:16:33 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:16:33 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=iairs27f1or, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=iairs27f1or, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:19:58 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:19:58 DEBUG OrderController:100 - OrderId requested is: jzf4ea5rk9
+2015-11-18 11:19:58 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:20:00 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=jzf4ea5rk9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:20:00 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:20:00 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=jzf4ea5rk9, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=jzf4ea5rk9, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:20:58 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:20:58 DEBUG OrderController:100 - OrderId requested is: 1gopeva38fr
+2015-11-18 11:20:58 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:21:00 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=1gopeva38fr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:21:00 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:21:00 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=1gopeva38fr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=1gopeva38fr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:25:20 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:25:23 DEBUG OrderController:100 - OrderId requested is: lor7nidx6r
+2015-11-18 11:25:23 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:25:32 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=lor7nidx6r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:25:46 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:25:48 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=lor7nidx6r, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=lor7nidx6r, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:40:51 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:40:52 DEBUG OrderController:100 - OrderId requested is: ln2zlvoyldi
+2015-11-18 11:40:52 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:40:56 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=ln2zlvoyldi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:40:58 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:40:59 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=ln2zlvoyldi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=ln2zlvoyldi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:42:47 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:42:47 DEBUG OrderController:100 - OrderId requested is: 0i5ixoe0zfr
+2015-11-18 11:42:47 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:42:49 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=0i5ixoe0zfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:42:49 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:42:50 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=0i5ixoe0zfr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=0i5ixoe0zfr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:44:11 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:44:11 DEBUG OrderController:100 - OrderId requested is: i84zwa5rk9
+2015-11-18 11:44:11 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:44:12 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=i84zwa5rk9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:44:12 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:44:12 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=i84zwa5rk9, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=i84zwa5rk9, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:45:09 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:45:10 DEBUG OrderController:100 - OrderId requested is: 30908d50zfr
+2015-11-18 11:45:10 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:45:16 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=30908d50zfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:45:24 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:45:29 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=30908d50zfr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=30908d50zfr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:47:30 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:47:30 DEBUG OrderController:100 - OrderId requested is: wo7kwewmi
+2015-11-18 11:47:30 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:47:32 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=wo7kwewmi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:47:35 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:47:36 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=wo7kwewmi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=wo7kwewmi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 11:51:59 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 11:51:59 DEBUG OrderController:100 - OrderId requested is: pocfxx647vi
+2015-11-18 11:51:59 DEBUG OrderController:105 - No of products in the list is : 1
+2015-11-18 11:52:02 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=pocfxx647vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:52:02 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 11:52:02 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=pocfxx647vi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=pocfxx647vi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:07:53 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:07:53 DEBUG OrderController:101 - OrderId requested is: 5hiib8d7vi
+2015-11-18 12:07:53 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:07:55 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=5hiib8d7vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:07:55 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:07:55 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=5hiib8d7vi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=5hiib8d7vi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:11:48 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:11:48 DEBUG OrderController:101 - OrderId requested is: 7u0un3zncdi
+2015-11-18 12:11:48 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:11:51 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=7u0un3zncdi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:11:56 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:11:57 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=7u0un3zncdi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=7u0un3zncdi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:16:35 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:16:35 DEBUG OrderController:101 - OrderId requested is: tmvhhb8olxr
+2015-11-18 12:16:35 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:16:38 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=tmvhhb8olxr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:16:41 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:16:43 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=tmvhhb8olxr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=tmvhhb8olxr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:24:11 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:24:11 DEBUG OrderController:101 - OrderId requested is: 7wcrndhd7vi
+2015-11-18 12:24:11 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:24:12 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=7wcrndhd7vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:24:12 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:24:12 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=7wcrndhd7vi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=7wcrndhd7vi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:32:02 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:32:02 DEBUG OrderController:101 - OrderId requested is: 12jn55ng66r
+2015-11-18 12:32:02 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:32:04 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=12jn55ng66r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:32:04 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:32:04 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=12jn55ng66r, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=12jn55ng66r, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:33:38 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:33:38 DEBUG OrderController:101 - OrderId requested is: o5srt62mx6r
+2015-11-18 12:33:38 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:33:39 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=o5srt62mx6r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:33:39 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:33:39 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=o5srt62mx6r, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=o5srt62mx6r, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:49:53 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:49:53 DEBUG OrderController:101 - OrderId requested is: f7lf8gxpqfr
+2015-11-18 12:49:53 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:49:54 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=f7lf8gxpqfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:49:54 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:49:54 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=f7lf8gxpqfr, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=f7lf8gxpqfr, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:56:18 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:56:18 DEBUG OrderController:101 - OrderId requested is: ecy2u2wewmi
+2015-11-18 12:56:18 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:56:20 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=ecy2u2wewmi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:56:20 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:56:20 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=ecy2u2wewmi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=ecy2u2wewmi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 12:58:29 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 12:58:29 DEBUG OrderController:101 - OrderId requested is: xu83434n29
+2015-11-18 12:58:29 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 12:58:31 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=xu83434n29, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:58:31 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 12:58:31 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=xu83434n29, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=null, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=xu83434n29, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 13:00:49 DEBUG OrderController:84 - Getting hit for updateOrder
+2015-11-18 13:00:49 DEBUG OrderController:101 - OrderId requested is: qaeo6v9rudi
+2015-11-18 13:00:49 DEBUG OrderController:106 - No of products in the list is : 1
+2015-11-18 13:00:50 DEBUG PaymentController:53 - Request obj received by make_paymentPaymentDTO [customerNo=7798846880, bookingNo=qaeo6v9rudi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 13:00:50 DEBUG CryptoUtil:81 - Inside decryptString Method
+2015-11-18 13:00:50 DEBUG PaymentController:86 - Request obj doPaymentPgRequestEntity [merchantTransactionId=qaeo6v9rudi, amount=1.0, currency=INR, comment=BookingForEcommerce, accessToken=24d76b5e-f3cb-4e3c-8286-f2aeb13bfec2, makePaymentAPIPath=null, requestUrl=https://sandboxadmin.citruspay.com, customerId=7798846880, bookingId=qaeo6v9rudi, responseUrl=null, pgCode=CITRUSPAY]
+2015-11-18 13:00:51 DEBUG CitruspayPaymentGateway:192 - 1495699

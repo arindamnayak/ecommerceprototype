@@ -1,0 +1,493 @@
+2015-11-16 14:35:29 INFO  OrderController:72 - OrderId requested is: d47rWnbZ7q
+2015-11-16 14:37:19 INFO  OrderController:72 - OrderId requested is: d47rWnbZ7q
+2015-11-16 16:06:32 INFO  OrderController:72 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:16:49 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:18:56 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:27:44 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:29:19 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:35:14 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:35:54 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:42:57 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:43:05 INFO  PaymentController:111 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 12:46:44 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:46:52 INFO  PaymentController:111 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 12:52:30 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 12:52:38 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 13:01:20 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 13:01:27 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 13:12:57 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 13:13:09 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 13:18:31 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:23:32 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:25:03 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:25:18 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:34:32 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:38:00 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:38:08 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:49:32 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:50:36 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:50:47 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:53:47 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:54:08 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ7q, pgTransactionId=1495597, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1592.0, currency=INR, date=1447752248279, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:54:52 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:55:00 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ7q, pgTransactionId=1495598, status=FAILED, reasonStatus=Successful payment transaction already exists, amountPaid=0.0, amountUnpaid=1.0, balance=1592.0, currency=INR, date=1447752300717, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:56:07 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:56:19 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ71, pgTransactionId=1495599, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1591.0, currency=INR, date=1447752379251, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 14:58:32 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 14:59:02 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ72, pgTransactionId=1495601, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1590.0, currency=INR, date=1447752542390, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 15:17:42 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 15:17:51 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ72, pgTransactionId=1495605, status=FAILED, reasonStatus=Successful payment transaction already exists, amountPaid=0.0, amountUnpaid=1.0, balance=1590.0, currency=INR, date=1447753671430, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 15:27:37 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 15:27:51 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ72, pgTransactionId=1495608, status=FAILED, reasonStatus=Successful payment transaction already exists, amountPaid=0.0, amountUnpaid=1.0, balance=1590.0, currency=INR, date=1447754271559, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 15:29:35 INFO  OrderController:83 - OrderId requested is: d47rWnbZ7q
+2015-11-17 15:29:45 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=d47rWnbZ72, pgTransactionId=1495609, status=FAILED, reasonStatus=Successful payment transaction already exists, amountPaid=0.0, amountUnpaid=1.0, balance=1590.0, currency=INR, date=1447754385077, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 15:42:56 INFO  OrderController:83 - OrderId requested is: 33a3v1gu8fr
+2015-11-17 15:43:00 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=33a3v1gu8fr, pgTransactionId=1495611, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1589.0, currency=INR, date=1447755180206, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 16:16:42 INFO  OrderController:101 - OrderId requested is: vhp8d26gvi
+2015-11-17 16:16:47 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=vhp8d26gvi, pgTransactionId=1495624, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1585.0, currency=INR, date=1447757206953, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 17:35:28 INFO  OrderController:101 - OrderId requested is: ub7a8oxbt9
+2015-11-17 17:35:31 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=ub7a8oxbt9, pgTransactionId=1495650, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1583.0, currency=INR, date=1447761931222, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 17:36:54 INFO  OrderController:101 - OrderId requested is: e7ed4jwcdi
+2015-11-17 17:37:02 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=e7ed4jwcdi, pgTransactionId=1495651, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1582.0, currency=INR, date=1447762021693, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 17:39:12 INFO  OrderController:101 - OrderId requested is: y250a5x9a4i
+2015-11-17 17:39:17 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=y250a5x9a4i, pgTransactionId=1495652, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1581.0, currency=INR, date=1447762156647, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 17:40:25 INFO  OrderController:101 - OrderId requested is: dotcd0wwmi
+2015-11-17 17:40:27 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=dotcd0wwmi, pgTransactionId=1495653, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1580.0, currency=INR, date=1447762226814, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 17:50:26 INFO  OrderController:105 - OrderId requested is: 4k8ggt1q0k9
+2015-11-17 17:50:30 INFO  PaymentController:113 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=4k8ggt1q0k9, pgTransactionId=1495654, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1579.0, currency=INR, date=1447762830222, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:10:35 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:10:35 INFO  OrderController:101 - OrderId requested is: ac9o5lpiudi
+2015-11-17 18:10:35 INFO  OrderController:104 - No of products in the list is : 2
+2015-11-17 18:10:35 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:10:35 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:10:36 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:10:36 INFO  OrderController:128 - Available Qty for the Product retrieved is: 6
+2015-11-17 18:10:36 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:10:36 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:10:38 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:10:38 INFO  OrderController:128 - Available Qty for the Product retrieved is: 6
+2015-11-17 18:10:38 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:10:38 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=ac9o5lpiudi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:10:39 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=ac9o5lpiudi, pgTransactionId=1495659, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1578.0, currency=INR, date=1447764039064, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:10:42 INFO  OrderController:183 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=ac9o5lpiudi, pgTransactionId=1495659, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1578.0, currency=INR, date=1447764039064, errorType=null, errorMessage=null]]
+2015-11-17 18:12:19 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:12:19 INFO  OrderController:101 - OrderId requested is: 047xd9xjemi
+2015-11-17 18:12:19 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:12:19 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:12:19 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:12:20 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:12:20 INFO  OrderController:128 - Available Qty for the Product retrieved is: 5
+2015-11-17 18:12:20 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:12:20 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=047xd9xjemi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:12:21 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=047xd9xjemi, pgTransactionId=1495661, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1577.0, currency=INR, date=1447764141238, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:12:23 INFO  OrderController:183 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=047xd9xjemi, pgTransactionId=1495661, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1577.0, currency=INR, date=1447764141238, errorType=null, errorMessage=null]]
+2015-11-17 18:12:54 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:12:54 INFO  OrderController:101 - OrderId requested is: x2o18dj9k9
+2015-11-17 18:12:54 INFO  OrderController:104 - No of products in the list is : 2
+2015-11-17 18:12:54 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:12:54 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:12:56 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:12:56 INFO  OrderController:128 - Available Qty for the Product retrieved is: 4
+2015-11-17 18:12:56 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:12:56 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:12:57 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:12:57 INFO  OrderController:128 - Available Qty for the Product retrieved is: 4
+2015-11-17 18:12:57 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:12:57 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=x2o18dj9k9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:12:58 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=x2o18dj9k9, pgTransactionId=1495662, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1576.0, currency=INR, date=1447764177814, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:13:01 INFO  OrderController:183 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=x2o18dj9k9, pgTransactionId=1495662, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1576.0, currency=INR, date=1447764177814, errorType=null, errorMessage=null]]
+2015-11-17 18:13:39 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:13:39 INFO  OrderController:101 - OrderId requested is: 5c7fcpzxgvi
+2015-11-17 18:13:39 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:13:39 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:13:39 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:13:40 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:13:40 INFO  OrderController:128 - Available Qty for the Product retrieved is: 3
+2015-11-17 18:13:40 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:13:40 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=5c7fcpzxgvi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:13:41 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=5c7fcpzxgvi, pgTransactionId=1495663, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1575.0, currency=INR, date=1447764220868, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:13:43 INFO  OrderController:183 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=5c7fcpzxgvi, pgTransactionId=1495663, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1575.0, currency=INR, date=1447764220868, errorType=null, errorMessage=null]]
+2015-11-17 18:16:29 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:16:29 INFO  OrderController:101 - OrderId requested is: egbfd23mcxr
+2015-11-17 18:16:29 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:16:29 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:16:29 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:16:31 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:16:31 INFO  OrderController:128 - Available Qty for the Product retrieved is: 2
+2015-11-17 18:16:31 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:16:31 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=egbfd23mcxr, status=1, pgCode=CITRUSPAY, amount=0.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:16:53 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:16:53 INFO  OrderController:101 - OrderId requested is: l23ax9u23xr
+2015-11-17 18:16:53 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:16:53 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:16:53 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:16:54 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:16:54 INFO  OrderController:128 - Available Qty for the Product retrieved is: 2
+2015-11-17 18:16:54 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:16:54 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=l23ax9u23xr, status=1, pgCode=CITRUSPAY, amount=0.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:19:37 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:19:37 INFO  OrderController:101 - OrderId requested is: csp3ewjnhfr
+2015-11-17 18:19:37 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:19:37 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:19:37 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:19:38 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:19:38 INFO  OrderController:128 - Available Qty for the Product retrieved is: 2
+2015-11-17 18:19:38 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:19:38 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=csp3ewjnhfr, status=1, pgCode=CITRUSPAY, amount=0.1, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:19:39 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:19:39 INFO  OrderController:183 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-17 18:20:54 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:20:54 INFO  OrderController:101 - OrderId requested is: r0rhiksxlxr
+2015-11-17 18:20:54 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:20:54 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:20:54 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:20:55 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:20:55 INFO  OrderController:128 - Available Qty for the Product retrieved is: 2
+2015-11-17 18:20:55 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:20:55 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=r0rhiksxlxr, status=1, pgCode=CITRUSPAY, amount=0.1, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:20:56 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:20:56 INFO  OrderController:183 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-17 18:23:04 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:23:04 INFO  OrderController:101 - OrderId requested is: wmnompiizfr
+2015-11-17 18:23:04 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:23:04 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:23:04 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:23:06 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:23:06 INFO  OrderController:128 - Available Qty for the Product retrieved is: 2
+2015-11-17 18:23:06 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:23:06 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=wmnompiizfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:23:07 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=wmnompiizfr, pgTransactionId=1495671, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1574.0, currency=INR, date=1447764786664, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:23:09 INFO  OrderController:183 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=wmnompiizfr, pgTransactionId=1495671, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1574.0, currency=INR, date=1447764786664, errorType=null, errorMessage=null]]
+2015-11-17 18:27:07 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:27:07 INFO  OrderController:101 - OrderId requested is: tin3ajxajor
+2015-11-17 18:27:07 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:27:07 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:27:07 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:27:09 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:27:09 INFO  OrderController:128 - Available Qty for the Product retrieved is: 1
+2015-11-17 18:27:09 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:27:09 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=tin3ajxajor, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:27:10 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=tin3ajxajor, pgTransactionId=1495673, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1573.0, currency=INR, date=1447765029907, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:27:12 INFO  OrderController:186 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=tin3ajxajor, pgTransactionId=1495673, status=SUCCESS, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1573.0, currency=INR, date=1447765029907, errorType=null, errorMessage=null]]
+2015-11-17 18:27:36 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:27:36 INFO  OrderController:101 - OrderId requested is: k7fvbjwz5mi
+2015-11-17 18:27:36 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:27:36 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:27:36 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:27:37 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:27:37 INFO  OrderController:128 - Available Qty for the Product retrieved is: 0
+2015-11-17 18:27:54 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:27:54 INFO  OrderController:101 - OrderId requested is: qvu7489qkt9
+2015-11-17 18:27:54 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:27:54 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:27:54 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:27:55 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:27:55 INFO  OrderController:128 - Available Qty for the Product retrieved is: 0
+2015-11-17 18:28:31 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-17 18:28:31 INFO  OrderController:101 - OrderId requested is: i2lx0hbmx6r
+2015-11-17 18:28:31 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-17 18:28:31 INFO  OrderController:113 - ProductId requested is: 5qOzqTqaeg
+2015-11-17 18:28:31 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-17 18:28:32 INFO  OrderController:127 - Product retrieved is: DELL VOSTRO LAPTOP
+2015-11-17 18:28:32 INFO  OrderController:128 - Available Qty for the Product retrieved is: 20
+2015-11-17 18:28:32 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-17 18:28:32 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=i2lx0hbmx6r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-17 18:28:33 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=i2lx0hbmx6r, pgTransactionId=1495676, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1572.0, currency=INR, date=1447765113267, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-17 18:28:35 INFO  OrderController:186 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=i2lx0hbmx6r, pgTransactionId=1495676, status=SUCCESS, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1572.0, currency=INR, date=1447765113267, errorType=null, errorMessage=null]]
+2015-11-18 10:59:21 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 10:59:21 INFO  OrderController:101 - OrderId requested is: wdgvzz4obt9
+2015-11-18 10:59:21 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 10:59:21 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 10:59:21 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 10:59:22 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 10:59:22 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 10:59:22 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 10:59:22 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=wdgvzz4obt9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 10:59:23 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:05:10 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:05:10 INFO  OrderController:101 - OrderId requested is: 6ef6ewb3xr
+2015-11-18 11:05:10 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:05:10 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:05:10 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:05:11 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:05:11 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:05:11 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:05:11 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=6ef6ewb3xr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:05:12 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:08:48 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:08:48 INFO  OrderController:101 - OrderId requested is: ctrckf647vi
+2015-11-18 11:08:48 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:08:48 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:08:48 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:08:50 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:08:50 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:08:50 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:08:50 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=ctrckf647vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:08:50 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:08:50 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:15:50 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:15:50 INFO  OrderController:101 - OrderId requested is: krxwhk0rudi
+2015-11-18 11:15:50 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:15:50 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:15:50 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:15:52 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:15:52 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:15:52 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:15:52 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=krxwhk0rudi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:15:52 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:15:52 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:16:32 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:16:32 INFO  OrderController:101 - OrderId requested is: iairs27f1or
+2015-11-18 11:16:32 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:16:32 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:16:32 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:16:33 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:16:33 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:16:33 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:16:33 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=iairs27f1or, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:16:34 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:16:34 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:19:58 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:19:58 INFO  OrderController:101 - OrderId requested is: jzf4ea5rk9
+2015-11-18 11:19:58 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:19:58 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:19:58 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:20:00 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:20:00 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:20:00 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:20:00 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=jzf4ea5rk9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:20:00 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:20:00 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:20:58 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:20:58 INFO  OrderController:101 - OrderId requested is: 1gopeva38fr
+2015-11-18 11:20:58 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:20:58 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:20:58 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:21:00 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:21:00 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:21:00 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:21:00 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=1gopeva38fr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:21:00 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:21:00 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:21:02 INFO  OrderController:188 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:25:20 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:25:23 INFO  OrderController:101 - OrderId requested is: lor7nidx6r
+2015-11-18 11:25:23 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:25:23 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:25:23 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:25:25 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:25:25 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:25:32 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:25:32 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=lor7nidx6r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:26:10 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:26:14 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:29:11 INFO  OrderController:? - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:40:51 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:40:52 INFO  OrderController:101 - OrderId requested is: ln2zlvoyldi
+2015-11-18 11:40:52 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:40:52 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:40:52 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:40:53 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:40:53 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:40:56 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:40:56 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=ln2zlvoyldi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:41:07 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:41:10 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:41:18 INFO  OrderController:194 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=ln2zlvoyldi, pgTransactionId=xcrOX5UsSef855c4a09a, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:42:47 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:42:47 INFO  OrderController:101 - OrderId requested is: 0i5ixoe0zfr
+2015-11-18 11:42:47 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:42:47 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:42:47 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:42:48 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:42:48 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:42:49 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:42:49 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=0i5ixoe0zfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:42:54 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:42:55 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:42:58 INFO  OrderController:194 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=0i5ixoe0zfr, pgTransactionId=ufeQqoF7ffca8fbd0961, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:44:11 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:44:11 INFO  OrderController:101 - OrderId requested is: i84zwa5rk9
+2015-11-18 11:44:11 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:44:11 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:44:11 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:44:12 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:44:12 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:44:12 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:44:12 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=i84zwa5rk9, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:44:13 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:44:13 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:44:14 INFO  OrderController:194 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=i84zwa5rk9, pgTransactionId=K9LMzMrM7cf3d2ad5cd8, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:45:09 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:45:10 INFO  OrderController:101 - OrderId requested is: 30908d50zfr
+2015-11-18 11:45:10 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:45:10 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:45:10 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:45:11 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:45:11 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:45:16 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:45:16 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=30908d50zfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:45:39 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:45:43 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:46:00 INFO  OrderController:194 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=30908d50zfr, pgTransactionId=S28WtuD7bd5478f399b0, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:47:30 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:47:30 INFO  OrderController:101 - OrderId requested is: wo7kwewmi
+2015-11-18 11:47:30 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:47:30 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:47:30 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:47:32 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:47:32 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:47:32 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:47:32 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=wo7kwewmi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:47:46 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:47:54 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:50:10 INFO  OrderController:195 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=wo7kwewmi, pgTransactionId=XOPRn0zYIb7dc6fae6b9, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 11:51:59 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 11:51:59 INFO  OrderController:101 - OrderId requested is: pocfxx647vi
+2015-11-18 11:51:59 INFO  OrderController:104 - No of products in the list is : 1
+2015-11-18 11:51:59 INFO  OrderController:113 - ProductId requested is: TUTaWjyrNf
+2015-11-18 11:51:59 INFO  OrderController:114 - No of Qty ordered is: : 1
+2015-11-18 11:52:00 INFO  OrderController:127 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 11:52:00 INFO  OrderController:128 - Available Qty for the Product retrieved is: 12
+2015-11-18 11:52:02 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 11:52:02 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=pocfxx647vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 11:52:03 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 11:52:03 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 11:52:05 INFO  OrderController:195 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=pocfxx647vi, pgTransactionId=HMfk6COUjJc6bfa01f2f, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:07:53 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:07:53 INFO  OrderController:102 - OrderId requested is: 5hiib8d7vi
+2015-11-18 12:07:53 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:07:53 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:07:53 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:07:55 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:07:55 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:07:55 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:07:55 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=5hiib8d7vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:07:56 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:07:56 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:07:58 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=5hiib8d7vi, pgTransactionId=PArg8CNVzba8087ff918, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:11:48 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:11:48 INFO  OrderController:102 - OrderId requested is: 7u0un3zncdi
+2015-11-18 12:11:48 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:11:48 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:11:48 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:11:50 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:11:50 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:11:51 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:11:51 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=7u0un3zncdi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:12:06 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:12:08 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:12:25 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=7u0un3zncdi, pgTransactionId=I1b0oGbznw555c1ee752, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:16:35 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:16:35 INFO  OrderController:102 - OrderId requested is: tmvhhb8olxr
+2015-11-18 12:16:35 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:16:35 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:16:35 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:16:36 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:16:36 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:16:38 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:16:38 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=tmvhhb8olxr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:17:54 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:17:59 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:18:04 INFO  OrderController:254 - Current status is: In Progressand Order id as: 82xpNQhLNT
+2015-11-18 12:18:23 INFO  OrderController:254 - Current status is: In Progress and Order id as: 82xpNQhLNT
+2015-11-18 12:19:33 INFO  OrderController:? - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=tmvhhb8olxr, pgTransactionId=vHtkuxR2Ip14edc83d4c, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:24:11 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:24:11 INFO  OrderController:102 - OrderId requested is: 7wcrndhd7vi
+2015-11-18 12:24:11 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:24:11 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:24:11 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:24:12 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:24:12 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:24:12 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:24:12 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=7wcrndhd7vi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:24:13 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:24:13 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:24:15 INFO  OrderController:254 - Current status is: In Progress and Order id as: OgAvJPAlkj
+2015-11-18 12:24:15 INFO  OrderController:255 - New Status will be: OPEN
+2015-11-18 12:24:17 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=7wcrndhd7vi, pgTransactionId=Q21J8apjfZ566ee3332a, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:32:02 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:32:02 INFO  OrderController:102 - OrderId requested is: 12jn55ng66r
+2015-11-18 12:32:02 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:32:02 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:32:02 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:32:04 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:32:04 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:32:04 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:32:04 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=12jn55ng66r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:32:04 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:32:04 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:32:06 INFO  OrderController:254 - Current status is: In Progress and Order id as: bxuHZjQMCN
+2015-11-18 12:32:06 INFO  OrderController:255 - New Status will be: OPEN
+2015-11-18 12:32:08 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=12jn55ng66r, pgTransactionId=hdFWsIMAZ499f3a3431d, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:33:38 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:33:38 INFO  OrderController:102 - OrderId requested is: o5srt62mx6r
+2015-11-18 12:33:38 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:33:38 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:33:38 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:33:39 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:33:39 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:33:39 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:33:39 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=o5srt62mx6r, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:33:39 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:33:39 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:33:41 INFO  OrderController:254 - Current status is: null and Order id as: cRry6LnNis
+2015-11-18 12:33:41 INFO  OrderController:255 - New Status will be: OPEN
+2015-11-18 12:33:43 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=o5srt62mx6r, pgTransactionId=pWgZUGq1VAa66877c907, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:49:53 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:49:53 INFO  OrderController:102 - OrderId requested is: f7lf8gxpqfr
+2015-11-18 12:49:53 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:49:53 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:49:53 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:49:54 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:49:54 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:49:54 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:49:54 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=f7lf8gxpqfr, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:49:55 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:49:55 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:49:57 INFO  OrderController:254 - Current status is: null and Order id as: WA5mwsa19z
+2015-11-18 12:49:57 INFO  OrderController:255 - New Status will be: OPEN
+2015-11-18 12:49:58 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=f7lf8gxpqfr, pgTransactionId=Ba1oWsDlLF70479ee609, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:56:18 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:56:18 INFO  OrderController:102 - OrderId requested is: ecy2u2wewmi
+2015-11-18 12:56:18 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:56:18 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:56:18 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:56:20 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:56:20 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:56:20 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:56:20 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=ecy2u2wewmi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:56:20 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:56:20 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:56:22 INFO  OrderController:254 - Current status is: null and Order id as: ku67kgwFbB
+2015-11-18 12:56:22 INFO  OrderController:255 - New Status will be: OPEN
+2015-11-18 12:56:24 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=ecy2u2wewmi, pgTransactionId=6ce2sPplLveb4a20e8ed, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 12:58:29 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 12:58:29 INFO  OrderController:102 - OrderId requested is: xu83434n29
+2015-11-18 12:58:29 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 12:58:29 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 12:58:29 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 12:58:31 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 12:58:31 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 12:58:31 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 12:58:31 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=xu83434n29, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 12:58:31 INFO  CitruspayPaymentGateway:81 - transaction failed on payment {}null
+2015-11-18 12:58:31 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=null, bookingNo=null, pgTransactionId=null, status=null, reasonStatus=null, amountPaid=0.0, amountUnpaid=0.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 12:58:34 INFO  OrderController:254 - Current status is: In Progress and Order id as: PdHZzePIGO
+2015-11-18 12:58:34 INFO  OrderController:255 - New Status will be: OPEN
+2015-11-18 12:58:35 INFO  OrderController:200 - Result of Payment: ResponseBean [status=400, message=PgResponseEntity [customerNo=null, bookingNo=xu83434n29, pgTransactionId=62Y6sgR23we9fe55ff02, status=FAILURE, reasonStatus=null, amountPaid=0.0, amountUnpaid=1.0, balance=0.0, currency=null, date=null, errorType=null, errorMessage=null]]
+2015-11-18 13:00:49 INFO  OrderController:83 - Getting hit for updateOrder
+2015-11-18 13:00:49 INFO  OrderController:102 - OrderId requested is: qaeo6v9rudi
+2015-11-18 13:00:49 INFO  OrderController:105 - No of products in the list is : 1
+2015-11-18 13:00:49 INFO  OrderController:114 - ProductId requested is: TUTaWjyrNf
+2015-11-18 13:00:49 INFO  OrderController:115 - No of Qty ordered is: : 1
+2015-11-18 13:00:50 INFO  OrderController:128 - Product retrieved is: SONY VOSTRO LAPTOP
+2015-11-18 13:00:50 INFO  OrderController:129 - Available Qty for the Product retrieved is: 12
+2015-11-18 13:00:50 INFO  PaymentController:51 - Inside Payment Controller
+2015-11-18 13:00:50 INFO  PaymentController:54 - Request obj received by make_payment PaymentDTO [customerNo=7798846880, bookingNo=qaeo6v9rudi, status=1, pgCode=CITRUSPAY, amount=1.0, checkSum=testCheckSum, comment=BookingForEcommerce, currency=INR]
+2015-11-18 13:00:51 INFO  PaymentController:109 - Response obj doPayment ResponseBean [status=PgResponseEntity [customerNo=7798846880, bookingNo=qaeo6v9rudi, pgTransactionId=1495699, status=SUCCESSFUL, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1571.0, currency=INR, date=1447831851234, errorType=null, errorMessage=null], message=VALID-REQUEST]
+2015-11-18 13:00:55 INFO  OrderController:254 - Current status is: In Progress and Order id as: xjJnuSsYlo
+2015-11-18 13:00:55 INFO  OrderController:255 - New Status will be: SUCCESS
+2015-11-18 13:00:56 INFO  OrderController:200 - Result of Payment: ResponseBean [status=200, message=PgResponseEntity [customerNo=7798846880, bookingNo=qaeo6v9rudi, pgTransactionId=w0HhnlY3qGc94045f0d9, status=SUCCESS, reasonStatus=, amountPaid=1.0, amountUnpaid=0.0, balance=1571.0, currency=INR, date=1447831851234, errorType=null, errorMessage=null]]
+2015-11-18 15:27:18 INFO  OrderController:57 - Getting hit for displayMessage
+2015-11-18 15:42:30 INFO  OrderController:57 - Getting hit for displayMessage

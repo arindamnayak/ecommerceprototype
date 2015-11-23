@@ -1,0 +1,67 @@
+package com.test.BackendService.controller;
+
+import com.pusher.client.channel.Channel;
+import com.pusher.client.channel.ChannelEventListener;
+import com.pusher.client.channel.SubscriptionEventListener;
+import com.pusher.client.connection.ConnectionEventListener;
+import com.pusher.client.connection.ConnectionState;
+import com.pusher.client.connection.ConnectionStateChange;
+
+public class SubscribePushEventsController {
+
+	private static final String apiKey = "965b5f64f06390eab7b6";
+
+	public void subscribePusherEvent(Pusher pusher) {
+
+		pusher.connect(new ConnectionEventListener() {
+			@Override
+			public void onConnectionStateChange(ConnectionStateChange change) {
+				System.out.println("State changed to "
+						+ change.getCurrentState() + " from "
+						+ change.getPreviousState());
+			}
+
+			@Override
+			public void onError(String message, String code, Exception e) {
+				System.out.println("There was a problem connecting!");
+			}
+
+		}, ConnectionState.ALL);
+
+		Channel channel = pusher.subscribe("my_channel",
+				new ChannelEventListener() {
+					@Override
+					public void onSubscriptionSucceeded(String channelName) {
+						System.out.println("Subscribed!");
+					}
+
+					@Override
+					public void onEvent(String channelName, String eventName,
+							String data) {
+						System.out.println("desilo se");
+					}
+				});
+
+		channel.bind("new_message", new SubscriptionEventListener() {
+			@Override
+			public void onEvent(String channelName, String eventName,
+					String data) {
+				System.out.println("Received event with data: " + data);
+			}
+		});
+
+		while (true) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException ex) {
+				Thread.currentThread().interrupt();
+			}
+		}
+	}
+
+	public static void main(String args[]) throws Exception {
+		SubscribePushEventsController subscribePushEventsController = new SubscribePushEventsController();
+		Pusher pusher = new Pusher(apiKey);
+		subscribePushEventsController.subscribePusherEvent(pusher);
+	}
+}
