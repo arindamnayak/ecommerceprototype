@@ -303,7 +303,6 @@ angular.module('app.controllers', [])//['ngCookies'])
   })
 
   .controller('paymentCtrl', function ($scope, Payment1, Utils,RestAPI) {
-
     $scope.products = Payment1.getItems();
     $scope.total = Payment1.get();
 
@@ -314,14 +313,22 @@ angular.module('app.controllers', [])//['ngCookies'])
         console.log("i is: "+i);
         productList[i]= { "qty":$scope.products[i].get("qty"),"productId":$scope.products[i].get("product").id};
       }
-
-      var OrderInput= {"orderId":OrderNo,"productList":productList};
+      /*var OrderInput= {"orderId":OrderNo,"productList":productList};*/
+      var OrderInput={
+      "orderId": OrderNo,
+      "orderNo": OrderNo,
+      "totalAmt": 1,
+      "customerNo": Parse.User.current().get("Phone"),
+      "pgCode" : "CITRUSPAY",
+      "productList": productList
+    };
       $scope.placeOrder= function() {
         $scope.isOrderPlaced = true;
+        console.log("Order No is: "+OrderNo);
+        $scope.order();
         RestAPI.updateOrder(OrderInput).success(function (result) {
           console.log("Data from Rest API is: " + result.status);
           console.log("Data from Rest API is: " + result.message);
-          $scope.order();
         }).error(function (error) {
           console.log("Error :" + error.message);
         })
@@ -358,7 +365,6 @@ angular.module('app.controllers', [])//['ngCookies'])
             (function (i) {
               orderItem.save({
                 success: function (object) {
-
                 }
                 ,
                 error: function (object, error) {
@@ -366,15 +372,11 @@ angular.module('app.controllers', [])//['ngCookies'])
                 }
               })
             }(i));
-
           }
-
           shipment(obj);
-
-
         }
           , error: function(obj,error){
-
+          console.log(error.message);
           }
 
         }
@@ -389,10 +391,7 @@ angular.module('app.controllers', [])//['ngCookies'])
         }
       }
       });
-
-
     }
-
       shipment = function(newOrder){
 
         var userAddress= Parse.Object.extend("UserAddress");
@@ -423,7 +422,6 @@ angular.module('app.controllers', [])//['ngCookies'])
                   error: function (object, error) {
                     console.log("Error Found" + error.message);
                   }
-
                 });
               },
               error: function (object, error) {
@@ -449,9 +447,6 @@ angular.module('app.controllers', [])//['ngCookies'])
   })
 
   .controller('vendorCtrl',function($cordovaCamera,$scope,$rootScope){
-
-
-
     $scope.addProduct = function(data,productCategory){
 
       console.log("category "+$rootScope.categoryforAdd[+productCategory]);
@@ -476,8 +471,6 @@ angular.module('app.controllers', [])//['ngCookies'])
 
         productDetails.set("Product_Brand",data.Product_Brand);
         productDetails.set("Product_Manufacturer",data.Product_Manufacturer);
-
-
         productDetails.save({
           success : function(object){
             alert("Product added successfully");
@@ -486,7 +479,6 @@ angular.module('app.controllers', [])//['ngCookies'])
           },
           error : function(object,error){
             alert("Error while adding product details "+error.message);
-
           }
         });
 
