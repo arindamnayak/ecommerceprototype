@@ -1,7 +1,7 @@
 1) Follow the link for setting up ionic.
 http://ionicframework.com/docs/guide/installation.html
 
-2) Check out the code from the repository.
+2) Check out the code from the repository ecommerceprototype/Ionic/Ecommerce_Running.
 
 3) The next thing we want to do is add the Apache Cordova camera plugin. 
 This can be done by running the following
