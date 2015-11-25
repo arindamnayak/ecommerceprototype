@@ -14,7 +14,7 @@ Add AngularJS extension set for Apache Cordova called ngCordova.  Start by downl
 
 	ionic plugin add https://github.com/apache/cordova-plugin-whitelist.git
 
-5) Replace the following files in the android platform from the repository.
+5) Replace the following files in the android platform from the repository ecommerceprototype/Ionic/Platform/.
 
 6) Replace the  Application ID and Client key in all the places.
 
