@@ -1,0 +1,89 @@
+// Use Parse.Cloud.define to define as many cloud functions as you want.
+// For example:
+ 
+Parse.Cloud.define("hello", function(request, response) {
+  response.success("Hello world!");
+});
+ 
+Parse.Cloud.afterSave(Parse.User, function(request) {
+Parse.Cloud.useMasterKey();  
+if (!request.object.existed()){
+    var user = request.object;
+    var acl = new Parse.ACL(user);
+    acl.setPublicReadAccess(false);
+    acl.setRoleReadAccess("Moderators",  true);
+    user.setACL(acl); 
+    user.save();
+    }
+  query = new Parse.Query(Parse.Role);
+  query.equalTo("name", "Moderators");
+  query.first ( {
+    success: function(object) {
+        object.relation("users").add(request.user);
+      object.save();
+      },error: function(error) {
+      throw "Error Found with Error Code: " + error.code + " and Error Message: " + error.message;
+    }
+  });
+});
+ 
+ 
+//Check if duplicate model already exists before saving to Product Table.
+//Parse.Cloud.beforeSave("Product", function(request, response) {
+//  if (!request.object.get("productName")) {
+//    response.error('Products must have productName');
+//  } else {
+//      var Product = Parse.Object.extend("Product");
+//   var query = new Parse.Query(Product);
+//    query.equalTo("modelNo", request.object.get("modelNo"));
+//    query.first({
+//      success: function(object) {
+//        if (object) {
+//          response.error("A product with this modelNo already exists.");
+//        } else {
+//          response.success();
+//        }
+ //     },
+ //     error: function(error) {
+ //       response.error("Could not validate uniqueness for this product .");
+ //     }
+//    });
+//  }
+//   });
+ 
+Parse.Cloud.define('isAdmin', function(req, response){
+if(!req.params.username){
+    response.error('Username has not been provided');
+}
+ 
+var queryRole = new Parse.Query(Parse.Role);
+queryRole.equalTo('name', 'Administrator');
+ 
+queryRole.first({
+    success: function(r){
+        var role = r;
+        var relation = new Parse.Relation(role, 'users');
+        var admins = relation.query();
+                console.log("Role is: "+r.get("name"));
+        admins.equalTo('username', req.params.username)
+        admins.first({
+            success: function(u){
+                var user = u;                               
+                if(user){
+                    //response.success('User is admin');
+                    console.log("User is admin");
+                    response.success(true);
+                }else{
+                    response.error('User is not admin ,User is: ' + req.params.username);
+                }
+            },
+            error: function(){
+                response.error('Error on user lookup');
+            }
+        })
+    },
+    error: function(){
+        response.error('User admin check failed');
+    }
+});
+});
