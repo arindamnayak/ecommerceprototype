@@ -3,8 +3,11 @@ http://ionicframework.com/docs/guide/installation.html
 
 2) Check out the code from the repository.
 
-3) The next thing we want to do is add the Apache Cordova camera plugin.  This can be done by running the following
+3) The next thing we want to do is add the Apache Cordova camera plugin. 
+This can be done by running the following
+
 	cordova plugin add org.apache.cordova.camera
+	
 Add AngularJS extension set for Apache Cordova called ngCordova.  Start by downloading the latest release of ngCordova and placing the ng-cordova.min.js file in your project’s www/js directory.
 
 4) Run the following (to avoid white screen on apps) 
