@@ -16,7 +16,7 @@ Add AngularJS extension set for Apache Cordova called ngCordova.  Start by downl
 
 5) Replace the following files in the android platform from the repository ecommerceprototype/Ionic/Platform/.
 
-6) Replace the  Application ID and Client key in all the places.
+6) Replace the Parse Application ID and Client key in all the places.
 
 7) Now you can build the app and run it on the android device by running
 
